@@ -1,2 +1,2 @@
 # android-vpn-client-ics-openvpn
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+[![Click to watch VPN client video](https://img.youtube.com/vi/1ms4mxEw378/0.jpg)](https://www.youtube.com/watch?v=1ms4mxEw378 "Click to watch VPN client video")
