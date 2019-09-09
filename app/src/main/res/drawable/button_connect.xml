@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="25dp" />
+            <solid android:color="@color/colorLightPrimary"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle"  >
+            <corners android:radius="25dp" />
+            <solid android:color="@color/colorLightPrimary"/>
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="25dp" />
+            <padding android:right="0dp" android:left="0dp" android:bottom="0dp" android:top="0dp"/>
+            <solid android:color="@color/colorPrimary"/>
+        </shape>
+    </item>
+</selector>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="8dp" />
+            <solid android:color="@color/colorGreen"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle"  >
+            <corners android:radius="8dp" />
+            <solid android:color="@color/colorLightGreen"/>
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="8dp" />
+            <padding android:right="0dp" android:left="0dp" android:bottom="0dp" android:top="0dp"/>
+            <solid android:color="@color/colorPrimary"/>
+        </shape>
+    </item>
+</selector>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="25dp" />
+            <solid android:color="@color/colorGreen"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle"  >
+            <corners android:radius="25dp" />
+            <solid android:color="@color/colorLightGreen"/>
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="25dp" />
+            <padding android:right="0dp" android:left="0dp" android:bottom="0dp" android:top="0dp"/>
+            <solid android:color="@color/colorLightGreen"/>
+        </shape>
+    </item>
+</selector>
+-->

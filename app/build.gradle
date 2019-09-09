@@ -1,0 +1,81 @@
+//noinspection GradleCompatible
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.firebase.firebase-perf'
+apply plugin: 'io.fabric'
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.buzz.vpn"
+        minSdkVersion 21
+        targetSdkVersion 28
+        vectorDrawables.useSupportLibrary = true
+        // api.major.patch
+        // api when you obsolete the existing api
+        // major add functionality
+        // bug fixes in functionality
+
+        //abiFilters "armeabi-v7a"
+        //abiFilters 'x86', 'x86_64', 'armeabi', 'armeabi-v7a', 'arm64-v8a'
+
+        versionCode 36
+        versionName "2.8.1800"
+        //abiFilters "armeabi-v7a"
+        ndk {
+            abiFilters "arm64-v8a", "armeabi-v7a"
+        }
+        resConfigs "en", "zh-rCN"
+    }
+    aaptOptions {
+        cruncherEnabled = false
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            // proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+android.lintOptions {
+    disable 'MissingTranslation'//, 'ManifestResource'
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'androidx.browser:browser:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.android.volley:volley:1.1.1'
+
+    implementation 'com.google.firebase:firebase-core:17.0.1' //16.0.9'
+    implementation 'com.google.firebase:firebase-perf:18.0.1'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+
+    implementation 'com.airbnb.android:lottie:3.0.7'
+    //Implementation 'androidx.annotation:annotation:1.1.0'
+
+    implementation 'com.android.support:support-annotations:28.0.0'
+
+    //implementation 'com.google.android.gms:play-services-ads:17.2.1'
+    //implementation 'com.robinhood.spark:spark:1.2.0'
+    //implementation 'com.google.firebase:firebase-ads:17.2.1'
+    //implementation 'com.appbrain:appbrain-sdk:+@aar'
+
+    //implementation 'com.android.support:recyclerview-v7:28.0.0' // Required Dependency by Audience Network SDK
+    //implementation 'com.facebook.android:audience-network-sdk:5.3.1'
+
+    // Required for local unit tests (JUnit 4 framework)
+    testImplementation 'junit:junit:4.12'
+
+    // Required for instrumented tests
+    androidTestImplementation 'androidx.annotation:annotation:1.0.0'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    //implementation 'com.google.firebase:firebase-ads:17.1.2'
+    //testImplementation 'junit:junit:4.12'
+    //androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    //androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+apply plugin: 'com.google.gms.google-services'

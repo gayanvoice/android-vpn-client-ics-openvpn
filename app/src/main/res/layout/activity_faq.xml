@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constLayoutFAQMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".FAQActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutFAQMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLightBackground"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutTitleBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_faq_go_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/lo_16dpGrid">
+
+                    <ImageView
+                        android:id="@+id/iv_faq_goback"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginEnd="@dimen/lo_4dpGrid"
+                        android:background="@drawable/ic_go_back" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="@dimen/lo_16dpGrid"
+                    android:gravity="center"
+                    android:text="FAQ"
+                    android:textSize="18sp"
+                    />
+
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/lo_16dpGrid"
+                    android:background="@drawable/ic_app_google" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutQNoProcess"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/lo_16dpGrid"
+                android:layout_marginEnd="@dimen/lo_16dpGrid"
+                android:layout_marginBottom="@dimen/lo_16dpGrid"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_process_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No process tap on connect button?"
+                    android:textColor="@color/textSup"
+                    android:textSize="@dimen/ts_Body1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_process_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="If you have installed other VPN apps, remove them."
+                    android:textColor="@color/textSub"
+                    android:textSize="@dimen/ts_Body2" />
+            </LinearLayout>
+
+            <!-- FAQ 1 -->
+            <LinearLayout
+                android:id="@+id/LinearLayoutQ1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/lo_16dpGrid"
+                android:layout_marginEnd="@dimen/lo_16dpGrid"
+                android:layout_marginBottom="@dimen/lo_16dpGrid"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_q1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/ts_Body1"
+                    android:textColor="@color/textSup"
+                    android:textStyle="bold"
+                    android:text="Why do I need VPN?" />
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_q1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/ts_Body2"
+                    android:textColor="@color/textSub"
+                    android:text="VPN is Virtual Private Network. By using VPN, you can use public Wi-Fi hotspots securely, and protect your privacy and bypass censorship" />
+            </LinearLayout>
+
+            <!-- FAQ 2 -->
+            <LinearLayout
+                android:id="@+id/LinearLayoutQ2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/lo_16dpGrid"
+                android:layout_marginEnd="@dimen/lo_16dpGrid"
+                android:layout_marginBottom="@dimen/lo_16dpGrid"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_q2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/ts_Body1"
+                    android:textColor="@color/textSup"
+                    android:textStyle="bold"
+                    android:text="How to use Buzz VPN?" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/lo_8dpGrid"
+                    android:layout_marginBottom="@dimen/lo_8dpGrid"
+                    android:background="@color/colorSecondary"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/lo_16dpGrid"
+                        android:layout_marginBottom="@dimen/lo_16dpGrid"
+                        android:background="@drawable/button_connect"
+                        android:elevation="@dimen/lo_8dpGrid"
+                        android:enabled="false"
+                        android:paddingStart="@dimen/lo_24dpGrid"
+                        android:paddingEnd="@dimen/lo_24dpGrid"
+                        android:text="Connect"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/ts_H6" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_q2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="@dimen/ts_Body2"
+                    android:textColor="@color/textSub"
+                    android:text="Just Tap on the CONNECT Button" />
+            </LinearLayout>
+
+            <!-- FAQ 3 -->
+            <LinearLayout
+                android:id="@+id/LinearLayoutQ3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/lo_16dpGrid"
+                android:layout_marginEnd="@dimen/lo_16dpGrid"
+                android:layout_marginBottom="@dimen/lo_16dpGrid"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_q3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/ts_Body1"
+                    android:textColor="@color/textSup"
+                    android:textStyle="bold"
+                    android:text="Why Buzz VPN failed to connect?" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/lo_8dpGrid"
+                    android:layout_marginBottom="@dimen/lo_8dpGrid"
+                    android:background="@color/colorSecondary"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/lo_16dpGrid"
+                        android:layout_marginBottom="@dimen/lo_16dpGrid"
+                        android:background="@drawable/ic_flag_united_states" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_q3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="@dimen/ts_Body2"
+                    android:textColor="@color/textSub"
+                    android:text="Just Tap on the FLAG Button Top-Right Corner and Change another Server" />
+            </LinearLayout>
+
+            <!-- FAQ 4 -->
+            <LinearLayout
+                android:id="@+id/LinearLayoutQ4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/lo_16dpGrid"
+                android:layout_marginEnd="@dimen/lo_16dpGrid"
+                android:layout_marginBottom="@dimen/lo_16dpGrid"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_q4_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/ts_Body1"
+                    android:textColor="@color/textSup"
+                    android:textStyle="bold"
+                    android:text="Still not Connecting?" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_q4_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/ts_Body2"
+                    android:textColor="@color/textSub"
+                    android:text="Turn On-Off Wi-Fi or Data Connection and Close the App and Open Again" />
+            </LinearLayout>
+
+            <!-- FAQ 5 -->
+            <LinearLayout
+                android:id="@+id/LinearLayoutQ5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/lo_16dpGrid"
+                android:layout_marginEnd="@dimen/lo_16dpGrid"
+                android:layout_marginBottom="@dimen/lo_16dpGrid"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_q5_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/ts_Body1"
+                    android:textColor="@color/textSup"
+                    android:textStyle="bold"
+                    android:text="How to run Buzz VPN in background?" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/lo_8dpGrid"
+                    android:layout_marginBottom="@dimen/lo_8dpGrid"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/img_protected_apps" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_q5_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/ts_Body2"
+                    android:textColor="@color/textSup"
+                    android:textStyle="bold"
+                    android:text="Advantages" />
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_q5_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/ts_Body2"
+                    android:textColor="@color/textSub"
+                    android:text="Your App will not close after Screen-Off" />
+
+                <TextView
+                    android:id="@+id/tv_usage_faq_q5_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/ts_Body2"
+                    android:textColor="@color/textSub"
+                    android:textStyle="italic"
+                    android:text="Open Settings > Advanced Settings > Battery > Protected Apps and Enable Buzz VPN" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

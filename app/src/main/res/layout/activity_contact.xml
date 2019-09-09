@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constLayoutContactMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutContactMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLightBackground"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutTitleBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_contact_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/lo_16dpGrid">
+
+                    <ImageView
+                        android:id="@+id/iv_contact_goback"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginEnd="@dimen/lo_4dpGrid"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ic_go_back" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tv_contact_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="@dimen/lo_16dpGrid"
+                    android:gravity="center"
+                    android:text="Contact"
+                    android:textSize="18sp" />
+
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/lo_16dpGrid"
+                    android:background="@drawable/ic_app_google" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="72dp">
+
+                <TextView
+                    android:id="@+id/tv_about_contact_problem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/lo_8dpGrid"
+                    android:text="What is your problem?"
+                    android:textColor="#444444"
+                    android:textSize="@dimen/ts_Body1"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_about_contact_advertising"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/lo_8dpGrid"
+                    android:buttonTint="@color/colorLightPrimary"
+                    android:text="Too much advertising"
+                    android:textColor="#686868"
+                    android:textSize="@dimen/ts_Body2"
+                    android:textStyle="bold"
+                    app:buttonTint="@color/colorLightPrimary" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_about_contact_speed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/lo_8dpGrid"
+                    android:buttonTint="@color/colorLightPrimary"
+                    android:text="Slow speed"
+                    android:textColor="#686868"
+                    android:textSize="@dimen/ts_Body2"
+                    android:textStyle="bold"
+                    app:buttonTint="@color/colorLightPrimary" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_about_contact_connecting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/lo_8dpGrid"
+                    android:buttonTint="@color/colorLightPrimary"
+                    android:text="Always connecting"
+                    android:textColor="#686868"
+                    android:textSize="@dimen/ts_Body2"
+                    android:textStyle="bold"
+                    app:buttonTint="@color/colorLightPrimary" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_about_contact_servers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/lo_8dpGrid"
+                    android:buttonTint="@color/colorLightPrimary"
+                    android:text="Servers are not connecting"
+                    android:textColor="#686868"
+                    android:textSize="@dimen/ts_Body2"
+                    android:textStyle="bold"
+                    app:buttonTint="@color/colorLightPrimary" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_about_contact_crashed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/lo_8dpGrid"
+                    android:buttonTint="@color/colorLightPrimary"
+                    android:text="App crashed"
+                    android:textColor="#686868"
+                    android:textSize="@dimen/ts_Body2"
+                    android:textStyle="bold"
+                    app:buttonTint="@color/colorLightPrimary" />
+
+                <TextView
+                    android:id="@+id/tv_about_contact_other_problems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/lo_8dpGrid"
+                    android:text="Other problems"
+                    android:textColor="#444444"
+                    android:textSize="@dimen/ts_Body1"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_about_contact_other_problems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorLightPrimary"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/ts_Body2"
+                    app:backgroundTint="@color/colorLightPrimary" />
+
+                <TextView
+                    android:id="@+id/tv_about_contact_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/lo_8dpGrid"
+                    android:text="Your Contact Email"
+                    android:textColor="#444444"
+                    android:textSize="@dimen/ts_Body1"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_about_contact_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorLightPrimary"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/ts_Body2"
+                    app:backgroundTint="@color/colorLightPrimary" />
+
+                <Button
+                    android:id="@+id/btn_about_contact_submit"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/lo_16dpGrid"
+                    android:layout_marginBottom="@dimen/lo_16dpGrid"
+                    android:background="@drawable/button_connect"
+                    android:elevation="@dimen/lo_16dpGrid"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/lo_24dpGrid"
+                    android:paddingLeft="@dimen/lo_24dpGrid"
+                    android:paddingTop="@dimen/lo_4dpGrid"
+                    android:paddingEnd="@dimen/lo_24dpGrid"
+                    android:paddingRight="@dimen/lo_24dpGrid"
+                    android:paddingBottom="@dimen/lo_4dpGrid"
+                    android:text="SUBMIT"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

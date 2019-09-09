@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/colorWhite"
+    android:id="@+id/ll_item"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingTop="@dimen/lo_16dpGrid"
+    android:paddingBottom="@dimen/lo_16dpGrid"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/iv_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/lo_16dpGrid"
+        android:layout_marginLeft="@dimen/lo_16dpGrid"
+        android:layout_gravity="center"
+        android:contentDescription="name of the country" />
+
+
+    <TextView
+        android:id="@+id/tv_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/lo_16dpGrid"
+        android:text="New York, USA"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="@dimen/ts_Body1" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/iv_signal_strength"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="@dimen/lo_16dpGrid"
+        android:layout_marginRight="@dimen/lo_16dpGrid"
+        android:layout_marginStart="@dimen/lo_16dpGrid"
+        android:layout_marginLeft="@dimen/lo_16dpGrid"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_signal_medium" />
+
+
+</LinearLayout>
+
+

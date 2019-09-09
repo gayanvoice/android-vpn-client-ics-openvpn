@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "469576928087",
+    "firebase_url": "https://buzz-vpn.firebaseio.com",
+    "project_id": "buzz-vpn",
+    "storage_bucket": "buzz-vpn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469576928087:android:eaf568700d436864",
+        "android_client_info": {
+          "package_name": "com.buzz.vpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469576928087-lspk0kq1v58if7vnvbdcm3ifks9ms8kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTCM2CTPfVcR0eM1DqK8hTvaONi2mT9LA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469576928087-lspk0kq1v58if7vnvbdcm3ifks9ms8kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-5054853472906512~8218274012"
+    }
+  ],
+  "configuration_version": "1"
+}

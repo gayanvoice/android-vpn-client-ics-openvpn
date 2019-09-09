@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayoutServers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightBackground"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_server_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/lo_16dpGrid"
+            android:paddingTop="@dimen/lo_16dpGrid"
+            android:paddingEnd="@dimen/lo_16dpGrid"
+            android:paddingBottom="@dimen/lo_16dpGrid">
+
+            <ImageView
+                android:id="@+id/iv_servers_go_back"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:background="@drawable/ic_go_back" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_servers_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="@dimen/lo_16dpGrid"
+            android:gravity="center"
+            android:text="Servers"
+            android:textSize="18sp" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/ll_server_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/lo_16dpGrid"
+            android:paddingTop="@dimen/lo_16dpGrid"
+            android:paddingEnd="@dimen/lo_16dpGrid"
+            android:paddingBottom="@dimen/lo_16dpGrid">
+
+            <ImageView
+                android:id="@+id/iv_server_refresh"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:background="@drawable/ic_servers_cloud"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_server_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:id="@+id/ls_servers_list_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true"
+            android:divider="@color/colorLightList"
+            android:dividerHeight="1dp"
+            android:visibility="gone"
+            android:scrollbars="vertical">
+
+        </ListView>
+
+        <ListView
+            android:id="@+id/ls_servers_list_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true"
+            android:visibility="gone"
+            android:divider="@color/colorDarkList"
+            android:dividerHeight="1dp"
+            android:scrollbars="vertical">
+
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

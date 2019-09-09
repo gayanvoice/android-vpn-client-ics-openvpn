@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Shadow Layers-->
+
+    <item>
+        <rotate
+            android:fromDegrees="-35"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0">
+            <shape android:shape="rectangle">
+                <corners android:radius="4dp"/>
+                <padding
+                    android:bottom="1px"
+                    android:left="1px"
+                    android:right="1px"/>
+                <solid android:color="#01000000" />
+            </shape>
+        </rotate>
+    </item>
+    <item android:left="8dp">
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="1px"
+                android:left="1px"
+                android:right="1px"/>
+            <solid android:color="#01000000" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!--===============-->
+    <item>
+        <rotate
+            android:fromDegrees="-35"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0">
+            <shape android:shape="rectangle">
+                <corners android:radius="4dp"/>
+                <padding
+                    android:bottom="1px" />
+                <solid android:color="#09000000" />
+            </shape>
+        </rotate>
+    </item>
+    <item android:left="8dp">
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="1px" />
+            <solid android:color="#09000000" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!--===============-->
+
+    <item>
+        <rotate
+            android:fromDegrees="-35"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0">
+            <shape android:shape="rectangle">
+                <corners android:radius="4dp"/>
+                <padding
+                    android:bottom="1px"
+                    android:left="1px"
+                    android:right="1px"/>
+                <solid android:color="#10000000" />
+            </shape>
+        </rotate>
+    </item>
+    <item android:left="8dp">
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="1px"
+                android:left="1px"
+                android:right="1px"/>
+            <solid android:color="#10000000" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!--ForeGround-->
+
+    <item>
+        <rotate
+            android:fromDegrees="-35"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0">
+            <shape android:shape="rectangle">
+                <corners android:radius="4dp"/>
+                <solid android:color="@color/colorWhite" /> <!--colorWhite-->
+            </shape>
+        </rotate>
+    </item>
+    <item android:left="8dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorWhite" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+</layer-list>
