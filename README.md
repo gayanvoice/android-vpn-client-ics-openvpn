@@ -1,6 +1,6 @@
 # Android VPN Client using ics-openvpn
 
-\* created using `create-react-app`
+The app is migrated to Android X
 
 # Introduction
 
@@ -16,36 +16,17 @@ The remainder of this document contains how to deploy the app on production and 
 
 1. The latest version of [`Android Studio`](https://developer.android.com/studio) and the latest versin of [`Gradle`](https://gradle.org/). Here's the adequate version I use:
 
-    ```sh
-    $ node --version
-    v6.10.1
     ```
-
-2. An adequate version of  [`npm`](https://nodejs.org/) is installed. Here's the adequate version I use:
-
-    ```sh
-    $ npm --version
-    3.10.10
+    Androdi Studio
+    3.4.0.0
+    
     ```
-3. An adequate version of [`create-react-app`](https://github.com/facebookincubator/create-react-app) is installed. Here's the adequate version I use:
-
-    ```sh
-    $ create-react-app --version
-    1.3.1
+1. The latest versin of [`Gradle`](https://gradle.org/). Here's the adequate version I use:
+    
     ```
-
-    In the case of `create-react-app`, you can either install it globally (i.e. `$ npm install -g create-react-app`) or install it locally (i.e. `$ npm install create-react-app`). If you choose the latter, you will have to specify its path whenever you invoke it (e.g. `path/to/node_modules/.bin/create-react-app`).
-
-4. (**Optional**) An adequate version of [`sed`](http://www.gnu.org/software/sed/) is installed. Here's the adequate version I use:
-
-   ```sh
-   $ sed --version
-   sed (GNU sed) 4.4
-   ```
-
-5. A [GitHub](https://www.github.com) account. :octocat:
-
-6. A command-line Git client [setup according to GitHub](https://help.github.com/articles/set-up-git/).
+    gradle version
+    5.5.1
+    ```
 
 ## Procedure
 
