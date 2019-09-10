@@ -1,25 +1,20 @@
 # Android VPN Client using ics-openvpn
-[![Click to watch the VPN client video](https://img.youtube.com/vi/1ms4mxEw378/0.jpg)](https://www.youtube.com/watch?v=1ms4mxEw378 "Click to watch the VPN client video")
-
-# Deploying a React App* to GitHub Pages
 
 \* created using `create-react-app`
 
 # Introduction
 
-In this tutorial, I'll show you how I deployed a React app—which I created using `create-react-app`—to GitHub Pages.
+In this android app, you can develop your own android vpn client. The project is based up on [https://github.com/schwabe/ics-openvpn](https://github.com/schwabe/ics-openvpn).
 
-You can visit the deployed app, at [https://gitname.github.io/react-gh-pages/](https://gitname.github.io/react-gh-pages/).
+This repository contains the files related to the app. The `master` branch contains the app's source code (the code the app's developers edit).
 
-This repository contains the files related to the app. The `master` branch contains the app's source code (the code the app's developers edit), and the `gh-pages` branch contains a *built* version of the app (i.e. the code that GitHub Pages serves to the app's visitors).
+The remainder of this document contains how to deploy the app on production and configuring the source code.
 
-The remainder of this document contains a tutorial on creating a React app (using `create-react-app`) and deploying that app to GitHub Pages.
-
-# Tutorial
+# Develop
 
 ## Prerequisites
 
-1. An adequate version of [`Node.js`](https://nodejs.org/) is installed. Here's the adequate version I use:
+1. The latest version of [`Android Studio`](https://developer.android.com/studio) and the latest versin of [`Gradle`](https://gradle.org/). Here's the adequate version I use:
 
     ```sh
     $ node --version
