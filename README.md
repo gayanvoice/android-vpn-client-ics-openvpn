@@ -33,15 +33,15 @@ The remainder of this document contains how to deploy the app on production and 
 
 ## Procedure
 
-* **Click Clone or downlaod button and downlaod the project**
+ **Click Clone or download button and download the project**
 
     * Unzip the github project to a folder. Open Android Studio.
     * Go to File -> New -> Import Project.
     * Then choose the specific project you want to import and then click Next->Finish.
       (It will build the Gradle automatically and'll be ready for you to use.)
  
-## Or
-* **Git clone in command line.** (5 minutes)
+### Or
+ **Git clone in command line.** (5 minutes)
 
     ```sh
     $ git clone --bare https://github.com/gayankuruppu/android-vpn-client-ics-openvpn
@@ -50,10 +50,4 @@ The remainder of this document contains how to deploy the app on production and 
 
 # References
 
-1. [Facebook's tutorial on deploying a React app to GitHub Pages](https://facebook.github.io/create-react-app/docs/deployment#github-pages-https-pagesgithubcom)
-
-# Notes
-
-* I created this React app using [`create-react-app`](https://github.com/facebookincubator/create-react-app). By default, apps created using `create-react-app` have a README.md file that looks like [this](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md). Indeed, the README.md file you're now reading originally looked like that. I have since changed it to look the way it looks today.
-* Special thanks to GitHub, Inc., for providing us with the GitHub Pages hosting functionality at no extra charge.
-* And now, time to turn the default `create-react-app` app into something unique!
+1. [OpenVPN for Android](https://github.com/schwabe/ics-openvpn)
