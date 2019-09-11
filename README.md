@@ -1,6 +1,9 @@
 # Android VPN Client using ics-openvpn
 
-The app is migrated to Android X
+The client app is based on OpenVPN protocol, and you can create your own android vpn app like Turbo VPN, Thunder VPN, or Hotspot Shield Free VPN. The app can calcualte the daily usage of data, connected time, check connection speeds from notifications, change the interface into night-mode.
+
+![Light Mode](https://lh3.googleusercontent.com/DYA8r0_U2C0c0N0OMG16m1MQzKe3vpJ0utP-Phwd_3FSnDYTM35tOYArfFqGfobZsLE=w720-h310-rw)
+![Dark Mode](https://lh3.googleusercontent.com/yvUkS8eVus7uFmN29-A-xGWihG_4JyizZ-09X4rpjsoxL7tJH3vKFsvfRsD78dnfKFE=w720-h310-rw)
 
 # Introduction
 
@@ -17,7 +20,7 @@ The remainder of this document contains how to deploy the app on production and 
 1. The latest version of [`Android Studio`](https://developer.android.com/studio) and the latest versin of [`Gradle`](https://gradle.org/). Here's the adequate version I use:
 
     ```
-    Androdi Studio
+    Android Studio
     3.4.0.0
     
     ```
