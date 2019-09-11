@@ -49,10 +49,11 @@ The remainder of this document contains how to deploy the app on production and 
 
 ## Deploy
 
-* Before deploying your app, please remove the google-services.json file from your app.
-    https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/cfd8f922f145d404618cfe1522fb76d9a9b8b698/app/google-services.json#L4
+* Before deploying your app, please remove the google-services.json file from your app. [google-services.json](https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/cfd8f922f145d404618cfe1522fb76d9a9b8b698/app/google-services.json#L4).
 
-    "firebase_url": "https://buzz-vpn.firebaseio.com",
+   
+
+
 
 # References
 
