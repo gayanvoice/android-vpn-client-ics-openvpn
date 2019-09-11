@@ -35,9 +35,9 @@ The remainder of this document contains how to deploy the app on production and 
 
  **Click Clone or download button and download the project**
 
-    * Unzip the github project to a folder. Open Android Studio.
-    * Go to File -> New -> Import Project.
-    * Then choose the specific project you want to import and then click Next->Finish.
+     Unzip the github project to a folder. Open Android Studio.
+     Go to File -> New -> Import Project.
+     Then choose the specific project you want to import and then click Next->Finish.
       (It will build the Gradle automatically and'll be ready for you to use.)
  
 ### Or
@@ -47,6 +47,12 @@ The remainder of this document contains how to deploy the app on production and 
     $ git clone --bare https://github.com/gayankuruppu/android-vpn-client-ics-openvpn
     ```
 
+## Deploy
+
+* Before deploying your app, please remove the google-services.json file from your app.
+    https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/cfd8f922f145d404618cfe1522fb76d9a9b8b698/app/google-services.json#L4
+
+    "firebase_url": "https://buzz-vpn.firebaseio.com",
 
 # References
 
