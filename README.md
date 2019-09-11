@@ -2,8 +2,9 @@
 
 The client app is based on OpenVPN protocol, and you can create your own android vpn app like Turbo VPN, Thunder VPN, or Hotspot Shield Free VPN. The app can calcualte the daily usage of data, connected time, check connection speeds from notifications, change the interface into night-mode.
 
-![Light Mode](https://lh3.googleusercontent.com/DYA8r0_U2C0c0N0OMG16m1MQzKe3vpJ0utP-Phwd_3FSnDYTM35tOYArfFqGfobZsLE=w720-h310-rw)
-![Dark Mode](https://lh3.googleusercontent.com/yvUkS8eVus7uFmN29-A-xGWihG_4JyizZ-09X4rpjsoxL7tJH3vKFsvfRsD78dnfKFE=w720-h310-rw)
+| ![Light Mode](https://lh3.googleusercontent.com/DYA8r0_U2C0c0N0OMG16m1MQzKe3vpJ0utP-Phwd_3FSnDYTM35tOYArfFqGfobZsLE=w720-h310-rw)| right-aligned | ![Dark Mode](https://lh3.googleusercontent.com/yvUkS8eVus7uFmN29-A-xGWihG_4JyizZ-09X4rpjsoxL7tJH3vKFsvfRsD78dnfKFE=w720-h310-rw) | ![Dark Mode](https://lh3.googleusercontent.com/yvUkS8eVus7uFmN29-A-xGWihG_4JyizZ-09X4rpjsoxL7tJH3vKFsvfRsD78dnfKFE=w720-h310-rw)
+
+
 
 # Introduction
 
