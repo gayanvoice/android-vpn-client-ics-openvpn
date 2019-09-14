@@ -160,6 +160,8 @@ public class MainActivity extends AppCompatActivity implements VpnStatus.ByteCou
             }
         }
 
+
+
         EncryptData En = new EncryptData();
         SharedPreferences ConnectionDetails = getSharedPreferences("connection_data", 0);
         FileID = ConnectionDetails.getString("file_id", "NA");
