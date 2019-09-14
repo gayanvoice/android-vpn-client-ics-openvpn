@@ -32,9 +32,6 @@ The remainder of this document contains how to deploy the app on production and 
 ![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-1-checkout-project-from-version-control.png](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-1-checkout-project-from-version-control.png "step-1-checkout-project-from-version-control")
 
 ## #2 Enter the link of the repository and select project folder
-```
-https://github.com/gayankuruppu/android-vpn-client-ics-openvpn
-```
 ![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-2-enter-the-link-of-the--git-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-2-enter-the-link-of-the--git-repository.PNG "step-2-enter-the-link-of-the--git-repository")
 
 ## #3 Click Yes to open the repositoy on the project
