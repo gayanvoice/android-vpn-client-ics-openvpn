@@ -28,21 +28,11 @@ The remainder of this document contains how to deploy the app on production and 
 
 # Develop
 
-## Prerequisites
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-1-checkout-project-from-version-control.png](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-1-checkout-project-from-version-control.png "step-1-checkout-project-from-version-control")
 
-1. The latest version of [`Android Studio`](https://developer.android.com/studio) and the latest versin of [`Gradle`](https://gradle.org/). Here's the adequate version I use:
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-2-enter-the-link-of-the--git-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-2-enter-the-link-of-the--git-repository.PNG "step-2-enter-the-link-of-the--git-repository")
 
-    ```
-    Android Studio
-    3.4.0.0
-    
-    ```
-1. The latest versin of [`Gradle`](https://gradle.org/). Here's the adequate version I use:
-    
-    ```
-    gradle version
-    5.5.1
-    ```
+
 
 ## Procedure
 
