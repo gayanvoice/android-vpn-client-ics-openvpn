@@ -28,26 +28,20 @@ The remainder of this document contains how to deploy the app on production and 
 
 # Develop
 
+## 1 Select checkout project from version control
 ![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-1-checkout-project-from-version-control.png](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-1-checkout-project-from-version-control.png "step-1-checkout-project-from-version-control")
 
+## 2 Enter the link of the repository and select project folder
 ![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-2-enter-the-link-of-the--git-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-2-enter-the-link-of-the--git-repository.PNG "step-2-enter-the-link-of-the--git-repository")
 
+## 3 Click Yes to open the repositoy on the project
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-3-click-yes-to-open-the-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-3-click-yes-to-open-the-repository.PNG "step-3-click-yes-to-open-the-repository")
 
+## 4 Build started
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-4-build-started.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-4-build-started.PNG "step-4-build-started")
 
-## Procedure
-
- **Click Clone or download button and download the project**
-
-     Unzip the github project to a folder. Open Android Studio.
-     Go to File -> New -> Import Project.
-     Then choose the specific project you want to import and then click Next->Finish.
-      (It will build the Gradle automatically and'll be ready for you to use.)
- 
-### Or
- **Git clone in command line.** (5 minutes)
-
-    $ git clone --bare https://github.com/gayankuruppu/android-vpn-client-ics-openvpn
-   
+## 4 Build finished
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-5-build-finished.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-5-build-finished.PNG "step-5-build-finished")
 
 ## Deploy
 
