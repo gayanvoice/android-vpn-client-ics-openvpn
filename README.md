@@ -9,8 +9,9 @@ The app can calcualte the daily usage of data, connected time, check connection 
 ## Links
 
 Get the APK files from the following app-stores
+1. [https://play.google.com/store/apps/details?id=com.buzz.vpn](https://play.google.com/store/apps/details?id=com.buzz.vpn).
 1. [https://buzz-vpn-fast-free-unlimited-secure-vpn-proxy.en.uptodown.com/android](https://buzz-vpn-fast-free-unlimited-secure-vpn-proxy.en.uptodown.com/android).
-1. [https://www.amazon.com/Buzz-VPN-Free-Pop-up-Ads/dp/B07T3X677T](https://www.amazon.com/Buzz-VPN-Free-Pop-up-Ads/dp/B07T3X677T).
+2. [https://www.amazon.com/Buzz-VPN-Free-Pop-up-Ads/dp/B07T3X677T](https://www.amazon.com/Buzz-VPN-Free-Pop-up-Ads/dp/B07T3X677T).
 
 ## Images
 ![Android VPN Client using ics-openvpn](https://lh3.googleusercontent.com/yvUkS8eVus7uFmN29-A-xGWihG_4JyizZ-09X4rpjsoxL7tJH3vKFsvfRsD78dnfKFE=w1366-h657-rw "Android VPN Client using ics-openvpn")
