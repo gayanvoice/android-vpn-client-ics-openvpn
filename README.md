@@ -48,6 +48,9 @@ The remainder of this document contains how to deploy the app on production and 
 
 * Before deploying your app, please remove the google-services.json file from your app. [google-services.json](https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/cfd8f922f145d404618cfe1522fb76d9a9b8b698/app/google-services.json#L4)
 
+# Install OpenVPN server for multiple users by few steps. Go to this repository and clone. Run the script rSo the servers arewaiting for a connection.et an OpenVPN file and paste the file in [filedetails.json](https://gayankuruppu.github.io/oml/buzz/filedetails.json). Create your own JSON file and host in a server.
+
+
 ### Remote config
 
 **App details**
