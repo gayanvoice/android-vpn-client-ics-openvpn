@@ -2,7 +2,7 @@
 
 The client app is based on OpenVPN protocol, and you can create your own android VPN apps like Turbo VPN, Thunder VPN, or Hotspot Shield Free VPN.
 
-The app can calculate the daily usage of data, connected time, check connection speeds from notifications, change the interface into night-mode.
+The app can calculate the daily usage of data, connected time, check connection speed from notifications, change the interface into night-mode, multiple servers, remote-config and visual-effects.
 
 # The servers are now offline! So the servers are waiting for a connection. Get an OpenVPN file and paste the file in [filedetails.json](https://gayankuruppu.github.io/oml/buzz/filedetails.json). Create your own JSON file and host in a server.
 
