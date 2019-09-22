@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/android-vpn-client-ics-openvpn/static/css/main.b100e6da.chunk.css",
+    "main.js": "/android-vpn-client-ics-openvpn/static/js/main.89d360c4.chunk.js",
+    "main.js.map": "/android-vpn-client-ics-openvpn/static/js/main.89d360c4.chunk.js.map",
+    "runtime-main.js": "/android-vpn-client-ics-openvpn/static/js/runtime-main.dd05d00c.js",
+    "runtime-main.js.map": "/android-vpn-client-ics-openvpn/static/js/runtime-main.dd05d00c.js.map",
+    "static/js/2.c2fbbddc.chunk.js": "/android-vpn-client-ics-openvpn/static/js/2.c2fbbddc.chunk.js",
+    "static/js/2.c2fbbddc.chunk.js.map": "/android-vpn-client-ics-openvpn/static/js/2.c2fbbddc.chunk.js.map",
+    "index.html": "/android-vpn-client-ics-openvpn/index.html",
+    "precache-manifest.b9d9700ba4d4a8c924393088494a65a4.js": "/android-vpn-client-ics-openvpn/precache-manifest.b9d9700ba4d4a8c924393088494a65a4.js",
+    "service-worker.js": "/android-vpn-client-ics-openvpn/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/android-vpn-client-ics-openvpn/static/css/main.b100e6da.chunk.css.map",
+    "static/media/0-android-vpn-client-app.gif": "/android-vpn-client-ics-openvpn/static/media/0-android-vpn-client-app.b8e63ecd.gif"
+  }
+}
