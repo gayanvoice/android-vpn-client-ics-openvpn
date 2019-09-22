@@ -1,6 +1,8 @@
 # Android VPN Client using ics-openvpn
 [![Build Status](https://travis-ci.org/gayankuruppu/android-vpn-client-ics-openvpn.svg?branch=master)](https://travis-ci.org/gayankuruppu/android-vpn-client-ics-openvpn) [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gayankuruppu/android-vpn-client-ics-openvpn)
 
+<img width="360" alt="Android VPN Client using ics-openvpn" src="https://gayankuruppu.github.io/android-vpn-client-ics-openvpn/static/media/0-android-vpn-client-app.b8e63ecd.gif">
+
 The client app is based on OpenVPN protocol, and you can create your own android VPN apps like Turbo VPN, Thunder VPN, or Hotspot Shield Free VPN.
 
 The app can calculate the daily usage of data, connected time, check connection speed from notifications, change the interface into night-mode, multiple servers, remote-config and visual-effects.
