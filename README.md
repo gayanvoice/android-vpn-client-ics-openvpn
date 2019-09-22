@@ -1,4 +1,5 @@
 # Android VPN Client using ics-openvpn
+[![Build Status](https://travis-ci.org/gayankuruppu/android-vpn-client-ics-openvpn.svg?branch=master)](https://travis-ci.org/gayankuruppu/android-vpn-client-ics-openvpn)
 
 The client app is based on OpenVPN protocol, and you can create your own android VPN apps like Turbo VPN, Thunder VPN, or Hotspot Shield Free VPN.
 
