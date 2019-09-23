@@ -3,7 +3,7 @@
 
 <img width="300" alt="Android VPN Client using ics-openvpn" src="https://gayankuruppu.github.io/android-vpn-client-ics-openvpn/static/media/0-android-vpn-client-app.b8e63ecd.gif">
 
-[https://medium.com/@kuruppu.gayan/develop-a-vpn-app-in-java-using-android-studio-6f1f2d66031e?sk=57ebd1c9175d5f56bd8e328731b5ac74](https://medium.com/@kuruppu.gayan/develop-a-vpn-app-in-java-using-android-studio-6f1f2d66031e?sk=57ebd1c9175d5f56bd8e328731b5ac74)
+Go to the Medium article to see how to configure the project [https://medium.com/@kuruppu.gayan/develop-a-vpn-app-in-java-using-android-studio-6f1f2d66031e?sk=57ebd1c9175d5f56bd8e328731b5ac74](https://medium.com/@kuruppu.gayan/develop-a-vpn-app-in-java-using-android-studio-6f1f2d66031e?sk=57ebd1c9175d5f56bd8e328731b5ac74)
 
 The client app is based on OpenVPN protocol, and you can create your own android VPN apps like Turbo VPN, Thunder VPN, or Hotspot Shield Free VPN.
 
