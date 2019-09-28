@@ -61,12 +61,12 @@ The remainder of this document contains how to deploy the app on production and 
 **App details**
 
 Load the details of the app from the following link [app details](https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L59).
-Go to [appdetails.json](https://gayankuruppu.github.io/oml/buzz/appdetails.json).
+Go to [appdetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/appdetails.json).
 
 **File details**
 
 Load the OpenVPN files from the following link [file details](https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60).
-Go to [filedetails.json](https://gayankuruppu.github.io/oml/buzz/filedetails.json).
+Go to [filedetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/filedetails.json).
 
 # References
 
