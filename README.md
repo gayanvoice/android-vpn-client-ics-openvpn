@@ -35,19 +35,19 @@ The remainder of this document contains how to deploy the app on production and 
 # Develop
 
 ## #1 Select checkout project from version control
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-1-checkout-project-from-version-control.png](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-1-checkout-project-from-version-control.png "step-1-checkout-project-from-version-control")
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-1-checkout-project-from-version-control.png](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-1-checkout-project-from-version-control.png "step-1-checkout-project-from-version-control")
 
 ## #2 Enter the link of the repository and select project folder
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-2-enter-the-link-of-the--git-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-2-enter-the-link-of-the--git-repository.PNG "step-2-enter-the-link-of-the--git-repository")
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.PNG "step-2-enter-the-link-of-the--git-repository")
 
 ## #3 Click Yes to open the repositoy on the project
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-3-click-yes-to-open-the-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-3-click-yes-to-open-the-repository.PNG "step-3-click-yes-to-open-the-repository")
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-3-click-yes-to-open-the-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/source-json/step-3-click-yes-to-open-the-repository.PNG "step-3-click-yes-to-open-the-repository")
 
 ## #4 Build started
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-4-build-started.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-4-build-started.PNG "step-4-build-started")
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-4-build-started.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-4-build-started.PNG "step-4-build-started")
 
 ## #5 Build finished
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-5-build-finished.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-5-build-finished.PNG "step-5-build-finished")
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-5-build-finished.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-5-build-finished.PNG "step-5-build-finished")
 
 ## Deploy
 
