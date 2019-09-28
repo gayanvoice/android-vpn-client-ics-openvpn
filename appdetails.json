@@ -1,0 +1,42 @@
+{
+  "ads":"true",
+  "update":[{
+    "version":"2.8.1600",
+    "title":"This app is now Open Source",
+    "description":"The App is available at github.com/gayankuruppu/android-vpn-client-ics-openvpn",
+    "size":"https://git.io/JeY69"
+  }],
+  "blocked":[
+    {"id":0, "app":"com.android.game"},
+    {"id":1, "app":"com.utorrent.client"},
+    {"id":2, "app":"com.torrent.client"},
+    {"id":3, "app":"com.tor.client"},
+    {"id":4, "app":"com.insta.client"},
+    {"id":5, "app":"com.facebook.client"},
+    {"id":6, "app":"com.get.client"}
+  ],
+  "free":[
+    {"id":0, "file":0, "city":"Essen","country":"Germany","image":"germany","ip":"51.68.191.75","active":"true","signal":"a"},
+    {"id":1, "file":0, "city":"Hamburg","country":"Germany","image":"germany","ip":"51.68.191.75","active":"true","signal":"b"},
+    {"id":2, "file":1, "city":"Los Angeles CA","country":"United States","image":"unitedstates","ip":"205.185.119.100","active":"true","signal":"c"},
+    {"id":3, "file":2, "city":"San Francisco CA","country":"United States","image":"unitedstates","ip":"205.185.114.16","active":"true","signal":"b"},
+    {"id":4, "file":3, "city":"Las Vegas NV","country":"United States","image":"unitedstates","ip":"205.185.117.57","active":"true","signal":"b"},
+    {"id":5, "file":2, "city":"New York NY","country":"United States","image":"unitedstates","ip":"167.99.9.115","active":"true","signal":"b"},
+    {"id":6, "file":3, "city":"Boston NY","country":"United States","image":"unitedstates","ip":"198.98.57.78","active":"false","signal":"b"},
+    {"id":7, "file":1, "city":"Paris","country":"France","image":"france","ip":"95.179.220.202","active":"false","signal":"b"},
+    {"id":8, "file":0, "city":"Cologne","country":"Germany","image":"germany","ip":"51.68.191.75","active":"false","signal":"b"},
+    {"id":9, "file":0, "city":"Frankfurt","country":"Germany","image":"germany","ip":"46.101.174.100","active":"true","signal":"b"},
+    {"id":10, "file":3, "city":"Sane Francisco Ca","country":"United States","image":"unitedstates","ip":"157.230.138.128","active":"true","signal":"b"},
+    {"id":11, "file":4, "city":"Amsterdam","country":"Netherlands","image":"netherlands","ip":"45.32.187.69","active":"true","signal":"d"},
+    {"id":12, "file":5, "city":"Seoul","country":"South Korea","image":"southkorea","ip":"vpn594000374.opengw.net","active":"true","signal":"d"},
+    {"id":13, "file":6, "city":"Tokyo","country":"Japan","image":"japan","ip":"vpn591865543.opengw.net","active":"true","signal":"d"},
+    {"id":14, "file":7, "city":"Yokohama","country":"Japan","image":"japan","ip":"vpn671737151.opengw.net","active":"true","signal":"d"},
+    {"id":15, "file":8, "city":"Singapore","country":"Singapore","image":"singapore","ip":"51.68.191.75","active":"true","signal":"d"},
+    {"id":16, "file":9, "city":"Helsinki","country":"Finland","image":"finland","ip":"205.185.119.100","active":"true","signal":"d"},
+    {"id":17, "file":10, "city":"Toronto","country":"Canada","image":"canada","ip":"205.185.114.16","active":"true","signal":"d"},
+    {"id":18, "file":11, "city":"Milano","country":"Italy","image":"italy","ip":"167.99.9.115","active":"true","signal":"d"},
+    {"id":19, "file":12, "city":"Warsaw","country":"Poland","image":"poland","ip":"51.68.191.75","active":"true","signal":"d"},
+    {"id":20, "file":13, "city":"Sydney","country":"Australia","image":"australia","ip":"46.101.174.100","active":"true","signal":"d"},
+    {"id":21, "file":14, "city":"Barcelona","country":"Spain","image":"spain","ip":"157.230.138.128","active":"true","signal":"d"}
+  ]
+}
