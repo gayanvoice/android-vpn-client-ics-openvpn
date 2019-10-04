@@ -120,8 +120,8 @@ Go to [filedetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankur
     {"id":1,"file":""}]
 }
 ```
-* The filedetails.json file stores the OpenVPN file string value.
-* Copy the text in the OVPN file and paste it in the JSON String (https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/filedetails.json)
+* The filedetails.json file stores the `OpenVPN source file` which is a `String` value to set up teh internet connection.
+* Copy the text in the `OVPN file` and paste it in the JSON String (https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/filedetails.json)
 * Add the link address in the WelcomeActivity.java https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60
 
 # Run the app
