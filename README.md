@@ -68,7 +68,7 @@ Go to [appdetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankuru
 Load the OpenVPN files from the following link [file details](https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60).
 Go to [filedetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/filedetails.json).
 
-#Configure appdetails.json
+# Configure appdetails.json
 ```json
 {
   "ads":"true",
@@ -96,13 +96,17 @@ Go to [filedetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankur
 ```
 
 ## The appdetails.json file has four main parts.
-* The value ads is a boolean value, you can choose true or false. If the value is true, the app will show ads when the session starts. Otherwise, ads will not show if the value is false.
-* The array update has three values. version is a String value which is the latest version of the app. When the session starts the app check if the version value is equal to the version of the app. If the values do not match with each other the Update View will show. The values title, description, and size are the values display in the Update View.
-* The array blocked has JSON objects with values id and package name. You can add apps such as Torrent to avoid the peer to peer file sharing which often misuse by downloading digital media.
-* The array free has values of the server names. The value city displays the server name and the value image is the name of the flag. The value signal is the value of the strength of the signal.
+* The value `ads` is a `boolean value`, you can choose `true` or `false`. If the value is `true`, the app will show ads when the session starts. Otherwise, ads will not show if the value is `false`.
+
+* The array `update` has three values. version is a `String value` which is the latest version of the app. When the session starts the app check if the version value is equal to the version of the app. If the values do not match with each other the Update View will show. The values `title`, `description`, and `size` are the values display in the Update View.
+
+* The array `blocked` has JSON objects with values `id` and `package name`. You can add apps such as Torrent to avoid the peer to peer file sharing which often misuse by downloading digital media.
+
+* The array `free` has values of the server names. The value `city` displays the `server name` and the value `image` is the name of the flag. The value `signal` is the value of the `strength of the signal`. The value `file` is the `index` value of the `source OVPN file` in the `filedetails.json`.
+
 * Change the JSON values and upload into your server or host it in the forked repository (https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/appdetails.json) and add the link of the JSON file in the WelcomeActivity.java file https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L59
 
-#Configure filedetails.json
+# Configure filedetails.json
 ```json
 {
   "ovpn_file":[
@@ -120,7 +124,7 @@ Go to [filedetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankur
 * Copy the text in the OVPN file and paste it in the JSON String (https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/filedetails.json)
 * Add the link address in the WelcomeActivity.java https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60
 
-#Run the app
+# Run the app
 * That is all. Now to can change the app UI and deploy the app.
 * Remove the Google Services JSON file before deploying (https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/master/app/google-services.json)
 Github https://github.com/gayankuruppu/android-vpn-client-ics-openvpn
