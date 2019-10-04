@@ -68,6 +68,61 @@ Go to [appdetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankuru
 Load the OpenVPN files from the following link [file details](https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60).
 Go to [filedetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/filedetails.json).
 
-# References
+#Configure appdetails.json
+```json
+{
+  "ads":"true",
+  "update":[{
+    "version":"2.8.1600",
+    "title":"This app is now Open Source",
+    "description":"The App is available at github.com/gayankuruppu/android-vpn-client-ics-openvpn",
+    "size":"https://git.io/JeY69"
+  }],
+  "blocked":[
+    {"id":0, "app":"com.android.game"},
+    {"id":1, "app":"com.utorrent.client"},
+    {"id":2, "app":"com.torrent.client"},
+    {"id":3, "app":"com.tor.client"},
+    {"id":4, "app":"com.insta.client"},
+    {"id":5, "app":"com.facebook.client"},
+    {"id":6, "app":"com.get.client"}
+  ],
+  "free":[
+    {"id":0, "file":0, "city":"Essen","country":"Germany","image":"germany","ip":"51.68.191.75","active":"true","signal":"a"},
+    {"id":1, "file":0, "city":"Hamburg","country":"Germany","image":"germany","ip":"51.68.191.75","active":"true","signal":"b"},
+    {"id":2, "file":1, "city":"Los Angeles CA","country":"United States","image":"unitedstates","ip":"205.185.119.100","active":"true","signal":"c"}
+  ]
+}
+```
 
+## The appdetails.json file has four main parts.
+* The value ads is a boolean value, you can choose true or false. If the value is true, the app will show ads when the session starts. Otherwise, ads will not show if the value is false.
+* The array update has three values. version is a String value which is the latest version of the app. When the session starts the app check if the version value is equal to the version of the app. If the values do not match with each other the Update View will show. The values title, description, and size are the values display in the Update View.
+* The array blocked has JSON objects with values id and package name. You can add apps such as Torrent to avoid the peer to peer file sharing which often misuse by downloading digital media.
+* The array free has values of the server names. The value city displays the server name and the value image is the name of the flag. The value signal is the value of the strength of the signal.
+* Change the JSON values and upload into your server or host it in the forked repository (https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/appdetails.json) and add the link of the JSON file in the WelcomeActivity.java file https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L59
+
+#Configure filedetails.json
+```json
+{
+"ovpn_file":[
+  {"id":0,"file":"client
+dev tun
+proto udp
+...
+d4ec4105a39c814bd980c9c0e0b8efb4
+-----END OpenVPN Static key V1-----
+</tls-auth>"},
+{"id":1,"file":""}]
+}
+```
+The filedetails.json file stores the OpenVPN file string value. Copy the text in the OVPN file and paste it in the JSON String (https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/filedetails.json) and add the link address in the WelcomeActivity.java https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60
+
+#Run the app
+That is all. Now to can change the app UI and deploy the app. Remove the Google Services JSON file before deploying (https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/master/app/google-services.json)
+Github https://github.com/gayankuruppu/android-vpn-client-ics-openvpn
+If you enjoyed this story, please click 👏 and share to help others find it!
+
+# References
 1. [OpenVPN for Android](https://github.com/schwabe/ics-openvpn)
+2. [Mediam article](https://medium.com/@kuruppu.gayan/develop-a-vpn-app-in-java-using-android-studio-6f1f2d66031e)
