@@ -105,24 +105,26 @@ Go to [filedetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankur
 #Configure filedetails.json
 ```json
 {
-"ovpn_file":[
-  {"id":0,"file":"client
-dev tun
-proto udp
-...
-d4ec4105a39c814bd980c9c0e0b8efb4
------END OpenVPN Static key V1-----
-</tls-auth>"},
-{"id":1,"file":""}]
+  "ovpn_file":[
+    {"id":0,"file":"client
+    dev tun
+    proto udp
+    ...
+    d4ec4105a39c814bd980c9c0e0b8efb4
+    -----END OpenVPN Static key V1-----
+    </tls-auth>"},
+    {"id":1,"file":""}]
 }
 ```
-The filedetails.json file stores the OpenVPN file string value. Copy the text in the OVPN file and paste it in the JSON String (https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/filedetails.json) and add the link address in the WelcomeActivity.java https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60
+* The filedetails.json file stores the OpenVPN file string value.
+* Copy the text in the OVPN file and paste it in the JSON String (https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/filedetails.json)
+* Add the link address in the WelcomeActivity.java https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60
 
 #Run the app
-That is all. Now to can change the app UI and deploy the app. Remove the Google Services JSON file before deploying (https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/master/app/google-services.json)
+* That is all. Now to can change the app UI and deploy the app.
+* Remove the Google Services JSON file before deploying (https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/master/app/google-services.json)
 Github https://github.com/gayankuruppu/android-vpn-client-ics-openvpn
-If you enjoyed this story, please click 👏 and share to help others find it!
 
 # References
-1. [OpenVPN for Android](https://github.com/schwabe/ics-openvpn)
-2. [Mediam article](https://medium.com/@kuruppu.gayan/develop-a-vpn-app-in-java-using-android-studio-6f1f2d66031e)
+1. [OpenVPN for Android - GitHub](https://github.com/schwabe/ics-openvpn)
+2. [Develop a VPN App in Java using Android Studio - Medium](https://medium.com/@kuruppu.gayan/develop-a-vpn-app-in-java-using-android-studio-6f1f2d66031e)
