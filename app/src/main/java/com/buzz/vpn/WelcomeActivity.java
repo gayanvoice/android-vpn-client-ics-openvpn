@@ -56,8 +56,8 @@ public class WelcomeActivity extends AppCompatActivity {
 
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
-        StringGetAppURL = "https://raw.githubusercontent.com/gayanvoice/gayankuruppu.github.io/source-json/appdetails.json";
-        StringGetConnectionURL = "https://raw.githubusercontent.com/gayanvoice/gayankuruppu.github.io/source-json/filedetails.json";
+        StringGetAppURL = "https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/appdetails.json";
+        StringGetConnectionURL = "https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/filedetails.json";
         //StringGetConnectionURL = "https://gayanvoice.github.io/buzz/connection.html";
 
         Typeface RobotoMedium = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Medium.ttf");
