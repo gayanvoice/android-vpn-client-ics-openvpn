@@ -51,22 +51,22 @@ The remainder of this document contains how to deploy the app on production and 
 
 ## Deploy
 
-* Before deploying your app, please remove the google-services.json file from your app. [google-services.json](https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/cfd8f922f145d404618cfe1522fb76d9a9b8b698/app/google-services.json#L4)
+* Before deploying your app, please remove the google-services.json file from your app. [google-services.json](https://github.com/gayanvoice/android-vpn-client-ics-openvpn/blob/cfd8f922f145d404618cfe1522fb76d9a9b8b698/app/google-services.json#L4)
 
-# Install OpenVPN server for multiple users by few steps. Go to this repository and clone. Run the script [OpenVPN Install for Multiple Users](https://github.com/gayankuruppu/openvpn-install-for-multiple-users)
+# Install OpenVPN server for multiple users by few steps. Go to this repository and clone. Run the script [OpenVPN Install for Multiple Users](https://github.com/gayanvoice/openvpn-install-for-multiple-users)
 
 
 ### Remote config
 
 **App details**
 
-Load the details of the app from the following link [app details](https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L59).
-Go to [appdetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/appdetails.json).
+Load the details of the app from the following link [app details](https://github.com/gayanvoice/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L59).
+Go to [appdetails.json](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/appdetails.json).
 
 **File details**
 
-Load the OpenVPN files from the following link [file details](https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60).
-Go to [filedetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/filedetails.json).
+Load the OpenVPN files from the following link [file details](https://github.com/gayanvoice/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60).
+Go to [filedetails.json](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/filedetails.json).
 
 # Configure appdetails.json
 ```json
