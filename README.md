@@ -9,7 +9,7 @@ The client app is based on OpenVPN protocol, and you can create your own android
 
 The app can calculate the daily usage of data, connected time, check connection speed from notifications, change the interface into night-mode, multiple servers, remote-config and visual-effects.
 
-# The servers are now offline! So the servers are waiting for a connection. Get an OpenVPN file and paste the file in [filedetails.json](https://gayankuruppu.github.io/oml/buzz/filedetails.json). Create your own JSON file and host in a server.
+# The servers are now offline! So the servers are waiting for a connection. Get an OpenVPN file and paste the file in [filedetails.json](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/filedetails.json). Create your own JSON file and host in a server.
 
 ## Links
 
@@ -35,19 +35,19 @@ The remainder of this document contains how to deploy the app on production and 
 # Develop
 
 ## #1 Select checkout project from version control
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-1-checkout-project-from-version-control.png](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-1-checkout-project-from-version-control.png "step-1-checkout-project-from-version-control")
+![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-1-checkout-project-from-version-control.png](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-1-checkout-project-from-version-control.png "step-1-checkout-project-from-version-control")
 
 ## #2 Enter the link of the repository and select project folder
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.PNG "step-2-enter-the-link-of-the--git-repository")
+![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.PNG](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.PNG "step-2-enter-the-link-of-the--git-repository")
 
 ## #3 Click Yes to open the repositoy on the project
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-3-click-yes-to-open-the-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/images/source-json/step-3-click-yes-to-open-the-repository.PNG "step-3-click-yes-to-open-the-repository")
+![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-3-click-yes-to-open-the-repository.PNG](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/images/source-json/step-3-click-yes-to-open-the-repository.PNG "step-3-click-yes-to-open-the-repository")
 
 ## #4 Build started
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-4-build-started.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-4-build-started.PNG "step-4-build-started")
+![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-4-build-started.PNG](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-4-build-started.PNG "step-4-build-started")
 
 ## #5 Build finished
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-5-build-finished.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-5-build-finished.PNG "step-5-build-finished")
+![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-5-build-finished.PNG](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-5-build-finished.PNG "step-5-build-finished")
 
 ## Deploy
 
@@ -121,13 +121,13 @@ Go to [filedetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankur
 }
 ```
 * The filedetails.json file stores the `OpenVPN source file` which is a `String` value to set up teh internet connection.
-* Copy the text in the `OVPN file` and paste it in the JSON String (https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/filedetails.json)
-* Add the link address in the WelcomeActivity.java https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60
+* Copy the text in the `OVPN file` and paste it in the JSON String (https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/filedetails.json)
+* Add the link address in the WelcomeActivity.java https://github.com/gayanvoice/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60
 
 # Run the app
 * That is all. Now to can change the app UI and deploy the app.
 * Remove the Google Services JSON file before deploying (https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/master/app/google-services.json)
-Github https://github.com/gayankuruppu/android-vpn-client-ics-openvpn
+Github https://github.com/gayanvoice/android-vpn-client-ics-openvpn
 
 # References
 1. [OpenVPN for Android - GitHub](https://github.com/schwabe/ics-openvpn)
