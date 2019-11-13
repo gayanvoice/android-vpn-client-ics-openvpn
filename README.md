@@ -41,7 +41,7 @@ The remainder of this document contains how to deploy the app on production and 
 ![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.png](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.png "step-2-enter-the-link-of-the--git-repository")
 
 ## #3 Click Yes to open the repositoy on the project
-![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-3-click-yes-to-open-the-repository.png](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-3-click-yes-to-open-the-repository.PNG "step-3-click-yes-to-open-the-repository")
+![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-3-click-yes-to-open-the-repository.png](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-3-click-yes-to-open-the-repository.png "step-3-click-yes-to-open-the-repository")
 
 ## #4 Build started
 ![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-4-build-started.PNG](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-4-build-started.PNG "step-4-build-started")
