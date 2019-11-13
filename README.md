@@ -44,10 +44,10 @@ The remainder of this document contains how to deploy the app on production and 
 ![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-3-click-yes-to-open-the-repository.png](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-3-click-yes-to-open-the-repository.png "step-3-click-yes-to-open-the-repository")
 
 ## #4 Build started
-![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-4-build-started.PNG](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-4-build-started.PNG "step-4-build-started")
+![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-4-build-started.png](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-4-build-started.png "step-4-build-started")
 
 ## #5 Build finished
-![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-5-build-finished.PNG](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-5-build-finished.PNG "step-5-build-finished")
+![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-5-build-finished.png](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-5-build-finished.png "step-5-build-finished")
 
 ## Deploy
 
