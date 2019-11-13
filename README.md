@@ -22,7 +22,9 @@ Get the APK files from the following app-stores
 ![Android VPN Client using ics-openvpn](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/android-vpn-client-ics-openvpn-image.png "Android VPN Client using ics-openvpn")
 
 ## Watch
-[![android-vpn-client-ics-openvpn-yt.png](https://github.com/gayanvoice/gayanvoice.github.io/blob/source-json/images/android-vpn-client-ics-openvpn-yt.png)](https://www.youtube.com/watch?v=1ms4mxEw378)
+<a href="https://www.youtube.com/watch?v=1ms4mxEw378">
+<img src="https://github.com/gayanvoice/gayanvoice.github.io/blob/source-json/images/android-vpn-client-ics-openvpn-yt.png" height="600px"/>
+</a>
 
 # Introduction
 
