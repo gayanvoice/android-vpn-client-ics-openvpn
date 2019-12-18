@@ -36,7 +36,7 @@ The remainder of this document contains how to deploy the app on production and 
 
 # Develop
 
-## Follow me on GitHub
+## # Follow [https://github.com/gayanvoice](https://github.com/gayanvoice) on GitHub
 
 ## #1 Select checkout project from version control
 ![https://raw.githubusercontent.com/gayanvoice/android-vpn-client-ics-openvpn/images/step-1-checkout-project-from-version-control.png](https://raw.githubusercontent.com/gayanvoice/android-vpn-client-ics-openvpn/images/step-1-checkout-project-from-version-control.png "step-1-checkout-project-from-version-control")
