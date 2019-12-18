@@ -1,5 +1,5 @@
 # Android VPN Client using ics-openvpn
-[![Build Status](https://travis-ci.org/gayanvoice/android-vpn-client-ics-openvpn.svg?branch=master)](https://travis-ci.org/gayanvoice/android-vpn-client-ics-openvpn) [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gayanvoice/android-vpn-client-ics-openvpn)
+[![Build Status](https://travis-ci.org/gayanvoice/android-vpn-client-ics-openvpn.svg?branch=master)](https://travis-ci.org/gayanvoice/android-vpn-client-ics-openvpn) [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gayanvoice/android-vpn-client-ics-openvpn) ![GitHub followers](https://img.shields.io/github/followers/gayanvoice?style=social)
 
 <img width="300" alt="Android VPN Client using ics-openvpn" src="https://gayanvoice.github.io/android-vpn-client-ics-openvpn/static/media/0-android-vpn-client-app.b8e63ecd.gif">
 
@@ -35,6 +35,9 @@ This repository contains the files related to the app. The `master` branch conta
 The remainder of this document contains how to deploy the app on production and configuring the source code.
 
 # Develop
+
+## Follow me
+![GitHub followers](https://img.shields.io/github/followers/gayanvoice?style=social)
 
 ## #1 Select checkout project from version control
 ![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-1-checkout-project-from-version-control.png](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-1-checkout-project-from-version-control.png "step-1-checkout-project-from-version-control")
