@@ -19,11 +19,11 @@ Get the APK files from the following app-stores
 3. [https://www.amazon.com/Buzz-VPN-Free-Pop-up-Ads/dp/B07T3X677T](https://www.amazon.com/Buzz-VPN-Free-Pop-up-Ads/dp/B07T3X677T)
 
 ## Images
-![Android VPN Client using ics-openvpn](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/android-vpn-client-ics-openvpn-image.png "Android VPN Client using ics-openvpn")
+![Android VPN Client using ics-openvpn](https://raw.githubusercontent.com/gayanvoice/android-vpn-client-ics-openvpn/images/android-vpn-client-ics-openvpn-image.png "Android VPN Client using ics-openvpn")
 
 ## Watch
 <a href="https://www.youtube.com/watch?v=1ms4mxEw378">
-<img src="https://github.com/gayanvoice/gayanvoice.github.io/blob/source-json/images/android-vpn-client-ics-openvpn-yt.png" height="600px"/>
+<img src="https://github.com/gayanvoice/android-vpn-client-ics-openvpn/images/android-vpn-client-ics-openvpn-yt.png" height="600px"/>
 </a>
 
 # Introduction
