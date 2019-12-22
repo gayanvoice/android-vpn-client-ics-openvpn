@@ -1,0 +1,11 @@
+{
+  "ovpn_file":[
+    {"id":0,"file":"client
+    dev tun
+    proto udp
+    ...
+    d4ec4105a39c814bd980c9c0e0b8efb4
+    -----END OpenVPN Static key V1-----
+    </tls-auth>"},
+    {"id":1,"file":""}]
+}
