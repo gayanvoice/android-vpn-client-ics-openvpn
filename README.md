@@ -9,7 +9,7 @@ The client app is based on OpenVPN protocol, and you can create your own android
 
 The app can calculate the daily usage of data, connected time, check connection speed from notifications, change the interface into night-mode, multiple servers, remote-config and visual-effects.
 
-# The servers are now offline! So the servers are waiting for a connection. Get an OpenVPN file and paste the file in [filedetails.json](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/filedetails.json). Create your own JSON file and host in a server.
+# The servers are now offline! So the servers are waiting for a connection. Get an OpenVPN file and paste the file in [filedetails.json](https://raw.githubusercontent.com/gayanvoice/android-vpn-client-ics-openvpn/images/filedetails.json). Create your own JSON file and host in a server.
 
 ## Links
 
@@ -65,12 +65,12 @@ The remainder of this document contains how to deploy the app on production and 
 **App details**
 
 Load the details of the app from the following link [app details](https://github.com/gayanvoice/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L59).
-Go to [appdetails.json](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/appdetails.json).
+Go to [appdetails.json](https://raw.githubusercontent.com/gayanvoice/android-vpn-client-ics-openvpn/images/appdetails.json).
 
 **File details**
 
 Load the OpenVPN files from the following link [file details](https://github.com/gayanvoice/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60).
-Go to [filedetails.json](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/filedetails.json).
+Go to [filedetails.json](https://raw.githubusercontent.com/gayanvoice/android-vpn-client-ics-openvpn/images/filedetails.json).
 
 # Configure appdetails.json
 ```json
