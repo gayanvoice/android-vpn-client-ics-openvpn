@@ -108,7 +108,7 @@ Go to [filedetails.json](https://raw.githubusercontent.com/gayanvoice/android-vp
 
 * The array `free` has values of the server names. The value `city` displays the `server name` and the value `image` is the name of the flag. The value `signal` is the value of the `strength of the signal`. The value `file` is the `index` value of the `source OVPN file` in the `filedetails.json`.
 
-* Change the JSON values and upload into your server or host it in the forked repository (https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/appdetails.json) and add the link of the JSON file in the WelcomeActivity.java file https://github.com/gayanvoice/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L59
+* Change the JSON values and upload into your server or host it in the forked repository (https://raw.githubusercontent.com/gayanvoice/android-vpn-client-ics-openvpn/images/appdetails.json) and add the link of the JSON file in the WelcomeActivity.java file https://github.com/gayanvoice/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L59
 
 # Configure filedetails.json
 ```json
@@ -125,7 +125,7 @@ Go to [filedetails.json](https://raw.githubusercontent.com/gayanvoice/android-vp
 }
 ```
 * The filedetails.json file stores the `OpenVPN source file` which is a `String` value to set up teh internet connection.
-* Copy the text in the `OVPN file` and paste it in the JSON String (https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/filedetails.json)
+* Copy the text in the `OVPN file` and paste it in the JSON String (https://raw.githubusercontent.com/gayanvoice/android-vpn-client-ics-openvpn/images/filedetails.json)
 * Add the link address in the WelcomeActivity.java https://github.com/gayanvoice/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60
 
 # Run the app
