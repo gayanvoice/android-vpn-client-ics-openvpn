@@ -58,7 +58,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="gayankuruppu.github.com"
+                    android:host="gayanvoice.github.com"
                     android:pathPrefix="/"
                     android:scheme="http" />
             </intent-filter>

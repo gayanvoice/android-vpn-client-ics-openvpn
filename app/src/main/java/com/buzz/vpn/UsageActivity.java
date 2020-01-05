@@ -661,7 +661,7 @@ public class UsageActivity extends Activity {
                     mFirebaseAnalytics.logEvent("app_param_click", params);
 
                     Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://gayankuruppu.github.io/oml/buzz/privacypolicy.html"));
+                    intent.setData(Uri.parse("https://gayanvoice.github.io/oml/buzz/privacypolicy.html"));
                     startActivity(intent);
                 } catch (Exception e) {
                     Bundle params = new Bundle();
