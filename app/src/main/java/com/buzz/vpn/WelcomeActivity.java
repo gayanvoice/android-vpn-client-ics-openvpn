@@ -13,6 +13,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 
+import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -153,6 +154,7 @@ public class WelcomeActivity extends AppCompatActivity {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String Response) {
+                        Log.e("Response", Response);
                         AppDetails = Response;
                         Data.isAppDetails = true;
                     }
