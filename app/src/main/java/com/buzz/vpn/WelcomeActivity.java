@@ -101,6 +101,10 @@ public class WelcomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/gayanvoice/android-vpn-client-ics-openvpn")));
+                    /*
+                    The following lines of code load the PlayStore
+
                     Bundle params = new Bundle();
                     params.putString("device_id", App.device_id);
                     params.putString("click", "play");
@@ -109,6 +113,7 @@ public class WelcomeActivity extends AppCompatActivity {
                     Intent intent = new Intent(Intent.ACTION_VIEW);
                     intent.setData(Uri.parse("market://details?id=com.buzz.vpn"));
                     startActivity(intent);
+                    */
                 } catch (ActivityNotFoundException activityNotFound) {
                     // startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.buzz.vpn")));
                     startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/gayanvoice/android-vpn-client-ics-openvpn")));

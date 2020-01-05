@@ -88,7 +88,7 @@
                     android:layout_gravity="center"
                     android:layout_margin="@dimen/lo_8dpGrid"
                     android:background="@drawable/button_update"
-                    android:text="Update"
+                    android:text="Source Code"
                     android:textColor="@color/colorWhite" />
 
                 <Button
