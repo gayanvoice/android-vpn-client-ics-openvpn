@@ -1,5 +1,5 @@
 # Android VPN Client using ics-openvpn
-[![Build Status](https://travis-ci.org/gayanvoice/android-vpn-client-ics-openvpn.svg?branch=master)](https://travis-ci.org/gayanvoice/android-vpn-client-ics-openvpn) [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gayanvoice/android-vpn-client-ics-openvpn)
+[![Build Status](https://travis-ci.org/gayanvoice/android-vpn-client-ics-openvpn.svg?branch=master)](https://travis-ci.org/gayanvoice/android-vpn-client-ics-openvpn) [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gayanvoice/android-vpn-client-ics-openvpn) [![HitCount](http://hits.dwyl.io/gayanvoice/android-vpn-client-ics-openvpn.svg)](http://hits.dwyl.io/gayanvoice/android-vpn-client-ics-openvpn)
 
 <img width="300" alt="Android VPN Client using ics-openvpn" src="https://gayanvoice.github.io/android-vpn-client-ics-openvpn/static/media/0-android-vpn-client-app.b8e63ecd.gif">
 
