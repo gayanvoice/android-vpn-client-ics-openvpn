@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="240dp"
     android:layout_height="wrap_content"
-    android:background="@color/colorWhite"
-    android:padding="@dimen/lo_16dpGrid"
-    android:gravity="center"
     android:layout_gravity="center"
-    android:orientation="vertical">
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/lo_16dpGrid">
 
     <ImageView
         android:id="@+id/imageView"
@@ -22,12 +22,12 @@
         android:id="@+id/dialog_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/ts_H6"
         android:layout_gravity="center"
         android:gravity="center"
+        android:text="UPGRADE TO LATEST VERSION"
         android:textColor="@color/colorPrimary"
-        android:textStyle="bold"
-        android:text="UPGRADE TO LATEST VERSION"/>
+        android:textSize="@dimen/ts_H6"
+        android:textStyle="bold" />
 
 
     <TextView
@@ -36,10 +36,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:textColor="#8D8D8D"
-        android:textStyle="bold"
         android:paddingTop="@dimen/lo_4dpGrid"
-        android:text="2.0.1-stable"/>
+        android:text="2.0.1-stable"
+        android:textColor="#8D8D8D"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/dialog_description"
@@ -47,10 +47,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:textColor="#797979"
-        android:textStyle="bold"
         android:paddingTop="@dimen/lo_8dpGrid"
-        android:text="latest version is included with more simplified user interface"/>
+        android:text="latest version is included with more simplified user interface"
+        android:textColor="#797979"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -62,17 +62,18 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_weight="1" />
+
         <TextView
             android:id="@+id/tv_dialog_close"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:textAllCaps="true"
             android:layout_gravity="center"
-            android:textColor="@color/colorBlue"
             android:layout_margin="@dimen/lo_8dpGrid"
-            android:text="close" />
+            android:gravity="center"
+            android:text="close"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlue"
+            android:textStyle="bold" />
 
         <View
             android:id="@+id/view"
@@ -84,12 +85,12 @@
             android:id="@+id/tv_dialog_update"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:layout_margin="@dimen/lo_8dpGrid"
             android:gravity="center"
+            android:text="update"
             android:textAllCaps="true"
             android:textColor="@color/colorBlue"
-            android:layout_margin="@dimen/lo_8dpGrid"
-            android:text="update" />
+            android:textStyle="bold" />
 
         <View
             android:id="@+id/view4"

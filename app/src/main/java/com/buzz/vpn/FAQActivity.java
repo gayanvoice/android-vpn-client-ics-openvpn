@@ -45,8 +45,8 @@ public class FAQActivity extends Activity {
         TextView tv_usage_faq_q5_3 = findViewById(R.id.tv_usage_faq_q5_3);
         TextView tv_usage_faq_q5_4 = findViewById(R.id.tv_usage_faq_q5_4);
 
-        Typeface RobotoRegular = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Regular.ttf");
-        Typeface RobotoMedium = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Medium.ttf");
+        Typeface RobotoRegular = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
+        Typeface RobotoMedium = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
 
         tv_usage_faq_title.setTypeface(RobotoMedium);
         tv_usage_faq_process_1.setTypeface(RobotoMedium);
@@ -69,8 +69,8 @@ public class FAQActivity extends Activity {
         tv_usage_faq_q5_3.setTypeface(RobotoRegular);
         tv_usage_faq_q5_4.setTypeface(RobotoRegular);
 
-        ImageView iv_faq_goback = findViewById (R.id.iv_faq_goback);
-        LinearLayout ll_faq_go_back = findViewById (R.id.ll_faq_go_back);
+        ImageView iv_faq_goback = findViewById(R.id.iv_faq_goback);
+        LinearLayout ll_faq_go_back = findViewById(R.id.ll_faq_go_back);
         ll_faq_go_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -79,8 +79,8 @@ public class FAQActivity extends Activity {
             }
         });
 
-        ConstraintLayout constLayoutFAQMain = findViewById (R.id.constLayoutFAQMain);
-        LinearLayout linearLayoutFAQMain = findViewById (R.id.linearLayoutFAQMain);
+        ConstraintLayout constLayoutFAQMain = findViewById(R.id.constLayoutFAQMain);
+        LinearLayout linearLayoutFAQMain = findViewById(R.id.linearLayoutFAQMain);
         SharedPreferences SettingsDetails = getSharedPreferences("settings_data", 0);
         String DarkMode = SettingsDetails.getString("dark_mode", "false");
         if (DarkMode.equals("true")) {
@@ -102,8 +102,7 @@ public class FAQActivity extends Activity {
             tv_usage_faq_q5_3.setTextColor(getResources().getColor(R.color.colorDarkText));
             tv_usage_faq_q5_4.setTextColor(getResources().getColor(R.color.colorDarkText));
             iv_faq_goback.setImageResource(R.drawable.ic_go_back_white);
-        }
-        else {
+        } else {
             constLayoutFAQMain.setBackgroundColor(getResources().getColor(R.color.colorLightBackground));
             linearLayoutFAQMain.setBackgroundColor(getResources().getColor(R.color.colorLightBackground));
             tv_usage_faq_title.setTextColor(getResources().getColor(R.color.colorLightText));
@@ -123,7 +122,6 @@ public class FAQActivity extends Activity {
             tv_usage_faq_q5_4.setTextColor(getResources().getColor(R.color.colorLightText));
             iv_faq_goback.setImageResource(R.drawable.ic_go_back);
         }
-
 
 
     }

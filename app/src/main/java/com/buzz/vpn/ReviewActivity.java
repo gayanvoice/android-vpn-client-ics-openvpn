@@ -41,7 +41,7 @@ public class ReviewActivity extends Activity {
 
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
-        Typeface RobotoBold = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Bold.ttf");
+        Typeface RobotoBold = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
 
         LinearLayout ll_about_back = findViewById(R.id.ll_about_back);
         LottieAnimationView la_review = findViewById(R.id.la_review);
@@ -163,7 +163,7 @@ public class ReviewActivity extends Activity {
 
     public void startAnimation(Context ctx, int view, int animation, boolean show) {
         final View Element = findViewById(view);
-        if(show) {
+        if (show) {
             Element.setVisibility(View.VISIBLE);
         } else {
             Element.setVisibility(View.INVISIBLE);

@@ -1,8 +1,5 @@
 package com.buzz.vpn;
 
-import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -13,7 +10,6 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.Bundle;
-
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -21,6 +17,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -42,6 +41,7 @@ public class ContactActivity extends Activity {
 
     String advertise, speed, connecting, working, crashed, other, email;
     private FirebaseAnalytics mFirebaseAnalytics;
+
     @Override
     public void onBackPressed() {
         finish();
@@ -71,9 +71,9 @@ public class ContactActivity extends Activity {
 
         btn_about_contact_submit = findViewById(R.id.btn_about_contact_submit);
 
-        Typeface RobotoMedium = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Medium.ttf");
-        Typeface RobotoRegular = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Regular.ttf");
-        Typeface RobotoBold = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Bold.ttf");
+        Typeface RobotoMedium = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
+        Typeface RobotoRegular = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
+        Typeface RobotoBold = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
 
 
         tv_contact_title.setTypeface(RobotoMedium);
@@ -96,36 +96,36 @@ public class ContactActivity extends Activity {
             public void onClick(View v) {
                 //http://sposcdn.com/buzzvpn/contact_log.php?ip=0000:0000:0000:0000&advertise=adv&speed=speed&connecting=connect&working=working&crashed=crashed&other=otherdata&email=someemail
                 // advertising
-                if(hasInternetConnection()) {
-                    if(checkbox_about_contact_advertising.isChecked()){
+                if (hasInternetConnection()) {
+                    if (checkbox_about_contact_advertising.isChecked()) {
                         advertise = "true";
                     } else {
                         advertise = "false";
                     }
 
                     // speed
-                    if(checkbox_about_contact_speed.isChecked()){
+                    if (checkbox_about_contact_speed.isChecked()) {
                         speed = "true";
                     } else {
                         speed = "false";
                     }
 
                     // connecting
-                    if(checkbox_about_contact_connecting.isChecked()){
+                    if (checkbox_about_contact_connecting.isChecked()) {
                         connecting = "true";
                     } else {
                         connecting = "false";
                     }
 
                     // working
-                    if(checkbox_about_contact_servers.isChecked()){
+                    if (checkbox_about_contact_servers.isChecked()) {
                         working = "true";
                     } else {
                         working = "false";
                     }
 
                     // crashed
-                    if(checkbox_about_contact_crashed.isChecked()){
+                    if (checkbox_about_contact_crashed.isChecked()) {
                         crashed = "true";
                     } else {
                         crashed = "false";
@@ -134,8 +134,12 @@ public class ContactActivity extends Activity {
                     other = et_about_contact_other_problems.getText().toString();
                     email = et_about_contact_email.getText().toString();
 
-                    if(other == null && other.isEmpty()) { other = "NULL-other";}
-                    if(email == null && email.isEmpty()) { email = "NULL-email";}
+                    if (other == null && other.isEmpty()) {
+                        other = "NULL-other";
+                    }
+                    if (email == null && email.isEmpty()) {
+                        email = "NULL-email";
+                    }
 
                     SendContactLog Object = new SendContactLog();
                     Object.start();
@@ -158,9 +162,9 @@ public class ContactActivity extends Activity {
             }
         });
 
-        ConstraintLayout constLayoutContactMain = findViewById (R.id.constLayoutContactMain);
-        LinearLayout linearLayoutContactMain = findViewById (R.id.linearLayoutContactMain);
-        ImageView iv_contact_goback = findViewById (R.id.iv_contact_goback);
+        ConstraintLayout constLayoutContactMain = findViewById(R.id.constLayoutContactMain);
+        LinearLayout linearLayoutContactMain = findViewById(R.id.linearLayoutContactMain);
+        ImageView iv_contact_goback = findViewById(R.id.iv_contact_goback);
         SharedPreferences SettingsDetails = getSharedPreferences("settings_data", 0);
         String DarkMode = SettingsDetails.getString("dark_mode", "false");
         if (DarkMode.equals("true")) {
@@ -178,8 +182,7 @@ public class ContactActivity extends Activity {
             checkbox_about_contact_servers.setTextColor(getResources().getColor(R.color.colorDarkText));
             checkbox_about_contact_speed.setTextColor(getResources().getColor(R.color.colorDarkText));
             iv_contact_goback.setImageResource(R.drawable.ic_go_back_white);
-        }
-        else {
+        } else {
             constLayoutContactMain.setBackgroundColor(getResources().getColor(R.color.colorLightBackground));
             linearLayoutContactMain.setBackgroundColor(getResources().getColor(R.color.colorLightBackground));
             tv_contact_title.setTextColor(getResources().getColor(R.color.colorLightText));
@@ -195,8 +198,6 @@ public class ContactActivity extends Activity {
             checkbox_about_contact_speed.setTextColor(getResources().getColor(R.color.colorLightText));
             iv_contact_goback.setImageResource(R.drawable.ic_go_back);
         }
-
-
 
 
     }
@@ -215,7 +216,7 @@ public class ContactActivity extends Activity {
                     if (ni.isConnected())
                         haveConnectedMobile = true;
             }
-        } catch (Exception e){
+        } catch (Exception e) {
             Bundle params = new Bundle();
             params.putString("device_id", App.device_id);
             params.putString("exception", "CA1" + e.toString());
@@ -230,8 +231,8 @@ public class ContactActivity extends Activity {
         public void run() {
             String str_url = "http://sposcdn.com/buzzvpn/contact_log.php";
             String str_post = null;
-            final String MyPREFERENCES = "MyPrefs" ;
-            final String MyKEY = "MyKEY" ;
+            final String MyPREFERENCES = "MyPrefs";
+            final String MyKEY = "MyKEY";
 
             EncryptData en = new EncryptData();
             String str_ipv4;
@@ -291,9 +292,9 @@ public class ContactActivity extends Activity {
         }
 
         private String getUniqueKey() {
-            long time= System.currentTimeMillis();
+            long time = System.currentTimeMillis();
             String str_api = String.valueOf(android.os.Build.VERSION.SDK_INT); // API
-            String str_model=  String.valueOf(Build.MODEL); // Model
+            String str_model = String.valueOf(Build.MODEL); // Model
             String str_manufacturer = String.valueOf(Build.MANUFACTURER); // Manufacturer
             String version;
             try {
@@ -306,7 +307,7 @@ public class ContactActivity extends Activity {
                 params.putString("exception", "CA3" + e.toString());
                 mFirebaseAnalytics.logEvent("app_param_error", params);
             }
-            return time + str_manufacturer+str_api+str_model+version;
+            return time + str_manufacturer + str_api + str_model + version;
         }
     }
 

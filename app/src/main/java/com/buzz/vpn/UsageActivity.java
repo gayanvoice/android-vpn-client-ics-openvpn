@@ -7,19 +7,17 @@ import android.content.ComponentName;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-
-//import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
-import androidx.annotation.Nullable;
-
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
+
+import androidx.annotation.Nullable;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
 
@@ -29,6 +27,8 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import de.blinkt.openvpn.core.App;
+
+//import android.graphics.Color;
 
 public class UsageActivity extends Activity {
 
@@ -70,10 +70,10 @@ public class UsageActivity extends Activity {
         tv_usage_socialmedia_title = findViewById(R.id.tv_usage_socialmedia_title);
         tv_usage_appstore_title = findViewById(R.id.tv_usage_appstore_title);
 
-        Typeface RobotoLight = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Light.ttf");
-        Typeface RobotoMedium = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Medium.ttf");
-        Typeface RobotoRegular = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Regular.ttf");
-        Typeface RobotoBold = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Bold.ttf");
+        Typeface RobotoLight = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf");
+        Typeface RobotoMedium = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
+        Typeface RobotoRegular = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
+        Typeface RobotoBold = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
 
         SharedPreferences ConnectionDetails = getSharedPreferences("app_details", 0);
         String cuVersion = ConnectionDetails.getString("cu_version", "NULL");
@@ -122,7 +122,7 @@ public class UsageActivity extends Activity {
                 }
 
             }
-        } catch (Exception e){
+        } catch (Exception e) {
             Bundle params = new Bundle();
             params.putString("device_id", App.device_id);
             params.putString("exception", "UA1" + e.toString());
@@ -136,12 +136,12 @@ public class UsageActivity extends Activity {
         String TODAY = df.format(Today);
 
         // yesterday
-        Calendar Cal1  = Calendar.getInstance();
+        Calendar Cal1 = Calendar.getInstance();
         Cal1.add(Calendar.DATE, -1);
         String YESTERDAY = df.format(new Date(Cal1.getTimeInMillis()));
 
         // three days
-        Calendar Cal2  = Calendar.getInstance();
+        Calendar Cal2 = Calendar.getInstance();
         Cal2.add(Calendar.DATE, -2);
         String THREEDAYS = df.format(new Date(Cal2.getTimeInMillis()));
 
@@ -154,8 +154,8 @@ public class UsageActivity extends Activity {
         long TODAY_USAGE = settings.getLong(TODAY, 0);
         long YESTERDAY_USAGE = settings.getLong(YESTERDAY, 0);
         long DAYTHREE_USAGE = settings.getLong(THREEDAYS, 0);
-        long WEEK_USAGE = settings.getLong(WEEK+YEAR, 0);
-        long MONTH_USAGE = settings.getLong(MONTH+YEAR, 0);
+        long WEEK_USAGE = settings.getLong(WEEK + YEAR, 0);
+        long MONTH_USAGE = settings.getLong(MONTH + YEAR, 0);
 
         TextView tv_usage_data_today_title = findViewById(R.id.tv_usage_data_today_title);
         TextView tv_usage_data_today_size = findViewById(R.id.tv_usage_data_today_size);
@@ -198,14 +198,14 @@ public class UsageActivity extends Activity {
         tv_usage_data_daythree_used.setTypeface(RobotoMedium);
         tv_usage_data_daythree_title.setText(THREEDAYS);
 
-        if(DAYTHREE_USAGE == 0){
+        if (DAYTHREE_USAGE == 0) {
             tv_usage_data_daythree_size.setText("NA");
-        } else  if(DAYTHREE_USAGE < 1000) {
+        } else if (DAYTHREE_USAGE < 1000) {
             tv_usage_data_daythree_size.setText("1KB");
         } else if ((DAYTHREE_USAGE >= 1000) && (DAYTHREE_USAGE <= 1000_000)) {
-            tv_usage_data_daythree_size.setText((DAYTHREE_USAGE/1000) + "KB");
-        } else  {
-            tv_usage_data_daythree_size.setText((DAYTHREE_USAGE/1000_000) + "MB");
+            tv_usage_data_daythree_size.setText((DAYTHREE_USAGE / 1000) + "KB");
+        } else {
+            tv_usage_data_daythree_size.setText((DAYTHREE_USAGE / 1000_000) + "MB");
         }
 
         TextView tv_usage_data_thisweek_title = findViewById(R.id.tv_usage_data_thisweek_title);
@@ -214,14 +214,14 @@ public class UsageActivity extends Activity {
         tv_usage_data_thisweek_title.setTypeface(RobotoRegular);
         tv_usage_data_thisweek_size.setTypeface(RobotoLight);
         tv_usage_data_thisweek_used.setTypeface(RobotoMedium);
-        if(WEEK_USAGE == 0){
+        if (WEEK_USAGE == 0) {
             tv_usage_data_thisweek_size.setText("NA");
-        } else  if(WEEK_USAGE < 1000) {
+        } else if (WEEK_USAGE < 1000) {
             tv_usage_data_thisweek_size.setText("1KB");
         } else if ((WEEK_USAGE >= 1000) && (WEEK_USAGE <= 1000_000)) {
-            tv_usage_data_thisweek_size.setText((WEEK_USAGE/1000) + "KB");
-        } else  {
-            tv_usage_data_thisweek_size.setText((WEEK_USAGE/1000_000) + "MB");
+            tv_usage_data_thisweek_size.setText((WEEK_USAGE / 1000) + "KB");
+        } else {
+            tv_usage_data_thisweek_size.setText((WEEK_USAGE / 1000_000) + "MB");
         }
 
         TextView tv_usage_data_thismonth_title = findViewById(R.id.tv_usage_data_thismonth_title);
@@ -230,14 +230,14 @@ public class UsageActivity extends Activity {
         tv_usage_data_thismonth_title.setTypeface(RobotoRegular);
         tv_usage_data_thismonth_size.setTypeface(RobotoLight);
         tv_usage_data_thismonth_used.setTypeface(RobotoMedium);
-        if(MONTH_USAGE == 0){
+        if (MONTH_USAGE == 0) {
             tv_usage_data_thismonth_size.setText("NA");
-        } else  if(MONTH_USAGE < 1000) {
+        } else if (MONTH_USAGE < 1000) {
             tv_usage_data_thismonth_size.setText("1KB");
         } else if ((MONTH_USAGE >= 1000) && (MONTH_USAGE <= 1000_000)) {
-            tv_usage_data_thismonth_size.setText((MONTH_USAGE/1000) + "KB");
-        } else  {
-            tv_usage_data_thismonth_size.setText((MONTH_USAGE/1000_000) + "MB");
+            tv_usage_data_thismonth_size.setText((MONTH_USAGE / 1000) + "KB");
+        } else {
+            tv_usage_data_thismonth_size.setText((MONTH_USAGE / 1000_000) + "MB");
         }
 
         sp_settings = getSharedPreferences("daily_usage", 0);
@@ -247,17 +247,17 @@ public class UsageActivity extends Activity {
         long time_total = sp_settings.getLong("total_time", 0);
 
 
-        String TodayTime = String.format(getString(R.string.string_of_two_number),  (time_today / (1000*60*60)) % 24) + ":" +
-                String.format(getString(R.string.string_of_two_number), TimeUnit.MILLISECONDS.toMinutes( time_today) % 60) + ":" +
+        String TodayTime = String.format(getString(R.string.string_of_two_number), (time_today / (1000 * 60 * 60)) % 24) + ":" +
+                String.format(getString(R.string.string_of_two_number), TimeUnit.MILLISECONDS.toMinutes(time_today) % 60) + ":" +
                 String.format(getString(R.string.string_of_two_number), (TimeUnit.MILLISECONDS.toSeconds(time_today) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(time_today))));
 
-        String YesterdayTime = String.format(getString(R.string.string_of_two_number),  (time_yesterday / (1000*60*60)) % 24) + ":" +
-                String.format(getString(R.string.string_of_two_number), TimeUnit.MILLISECONDS.toMinutes( time_yesterday) % 60) + ":" +
+        String YesterdayTime = String.format(getString(R.string.string_of_two_number), (time_yesterday / (1000 * 60 * 60)) % 24) + ":" +
+                String.format(getString(R.string.string_of_two_number), TimeUnit.MILLISECONDS.toMinutes(time_yesterday) % 60) + ":" +
                 String.format(getString(R.string.string_of_two_number), (TimeUnit.MILLISECONDS.toSeconds(time_yesterday) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(time_yesterday))));
 
 
-        String TotalTime = String.format(getString(R.string.string_of_two_number),  (time_total / (1000*60*60)) % 24) + ":" +
-                String.format(getString(R.string.string_of_two_number), TimeUnit.MILLISECONDS.toMinutes( time_total) % 60) + ":" +
+        String TotalTime = String.format(getString(R.string.string_of_two_number), (time_total / (1000 * 60 * 60)) % 24) + ":" +
+                String.format(getString(R.string.string_of_two_number), TimeUnit.MILLISECONDS.toMinutes(time_total) % 60) + ":" +
                 String.format(getString(R.string.string_of_two_number), (TimeUnit.MILLISECONDS.toSeconds(time_total) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(time_total))));
 
         TextView tv_usage_time_today_title = findViewById(R.id.tv_usage_time_today_title);
@@ -321,13 +321,13 @@ public class UsageActivity extends Activity {
         tv_usage_connection_total_size.setText(String.valueOf(connections_total));
 
 
-        LinearLayout ll_about_forward = findViewById (R.id.ll_about_forward);
+        LinearLayout ll_about_forward = findViewById(R.id.ll_about_forward);
         ll_about_forward.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try{
-                finish();
-                overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
+                try {
+                    finish();
+                    overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
                 } catch (Exception e) {
                     Bundle params = new Bundle();
                     params.putString("device_id", App.device_id);
@@ -337,7 +337,7 @@ public class UsageActivity extends Activity {
             }
         });
 
-        ImageView iv_about_facebook = findViewById (R.id.iv_about_facebook);
+        ImageView iv_about_facebook = findViewById(R.id.iv_about_facebook);
         iv_about_facebook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -359,7 +359,7 @@ public class UsageActivity extends Activity {
             }
         });
 
-        ImageView iv_about_vk = findViewById (R.id.iv_about_vk);
+        ImageView iv_about_vk = findViewById(R.id.iv_about_vk);
         iv_about_vk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -381,7 +381,7 @@ public class UsageActivity extends Activity {
             }
         });
 
-        ImageView iv_about_youtube = findViewById (R.id.iv_about_youtube);
+        ImageView iv_about_youtube = findViewById(R.id.iv_about_youtube);
         iv_about_youtube.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -403,7 +403,7 @@ public class UsageActivity extends Activity {
             }
         });
 
-        ImageView iv_about_twitter = findViewById (R.id.iv_about_twitter);
+        ImageView iv_about_twitter = findViewById(R.id.iv_about_twitter);
         iv_about_twitter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -425,7 +425,7 @@ public class UsageActivity extends Activity {
             }
         });
 
-        ImageView iv_about_instagram = findViewById (R.id.iv_about_instagram);
+        ImageView iv_about_instagram = findViewById(R.id.iv_about_instagram);
         iv_about_instagram.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -448,7 +448,7 @@ public class UsageActivity extends Activity {
         });
 
 
-        ImageView iv_about_playstore = findViewById (R.id.iv_about_playstore);
+        ImageView iv_about_playstore = findViewById(R.id.iv_about_playstore);
         iv_about_playstore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -472,7 +472,7 @@ public class UsageActivity extends Activity {
             }
         });
 
-        ImageView iv_about_amazon = findViewById (R.id.iv_about_amazon);
+        ImageView iv_about_amazon = findViewById(R.id.iv_about_amazon);
         iv_about_amazon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -496,7 +496,7 @@ public class UsageActivity extends Activity {
         });
 
         // https://buzz-vpn-fast-free-unlimited-secure-vpn-proxy.en.uptodown.com/android
-        ImageView iv_about_uptodown = findViewById (R.id.iv_about_uptodown);
+        ImageView iv_about_uptodown = findViewById(R.id.iv_about_uptodown);
         iv_about_uptodown.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -518,7 +518,7 @@ public class UsageActivity extends Activity {
             }
         });
 
-        ImageView iv_about_aptoid = findViewById (R.id.iv_about_aptoid);
+        ImageView iv_about_aptoid = findViewById(R.id.iv_about_aptoid);
         iv_about_aptoid.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -542,7 +542,7 @@ public class UsageActivity extends Activity {
         });
 
 
-        ImageView iv_about_yandex = findViewById (R.id.iv_about_yandex);
+        ImageView iv_about_yandex = findViewById(R.id.iv_about_yandex);
         iv_about_yandex.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -565,7 +565,7 @@ public class UsageActivity extends Activity {
         });
 
 
-        LinearLayout linearLayoutFAQ = findViewById (R.id.linearLayoutFAQ);
+        LinearLayout linearLayoutFAQ = findViewById(R.id.linearLayoutFAQ);
         TextView tv_usage_faq_title = findViewById(R.id.tv_usage_faq_title);
         TextView tv_usage_faq_description = findViewById(R.id.tv_usage_faq_description);
         tv_usage_faq_title.setTypeface(RobotoMedium);
@@ -592,7 +592,7 @@ public class UsageActivity extends Activity {
 
         });
 
-        LinearLayout linearLayoutBattery = findViewById (R.id.linearLayoutBattery);
+        LinearLayout linearLayoutBattery = findViewById(R.id.linearLayoutBattery);
         TextView tv_usage_battery_title = findViewById(R.id.tv_usage_battery_title);
         TextView tv_usage_battery_description = findViewById(R.id.tv_usage_battery_description);
         tv_usage_battery_title.setTypeface(RobotoMedium);
@@ -614,8 +614,8 @@ public class UsageActivity extends Activity {
             @Override
             public void onClick(View v) {
                 try {
-                    if("huawei".equalsIgnoreCase(android.os.Build.MANUFACTURER)) {
-                        AlertDialog.Builder builder  = new AlertDialog.Builder(UsageActivity.this);
+                    if ("huawei".equalsIgnoreCase(android.os.Build.MANUFACTURER)) {
+                        AlertDialog.Builder builder = new AlertDialog.Builder(UsageActivity.this);
                         builder.setTitle("Let app always run in background?").setMessage("Allowing Buzz VPN to always run in the background app may can reduce memory usage")
                                 .setPositiveButton("Allow", new DialogInterface.OnClickListener() {
                                     @Override
@@ -646,7 +646,7 @@ public class UsageActivity extends Activity {
             }
         });
 
-        LinearLayout linearLayoutPrivacyPolicy = findViewById (R.id.linearLayoutPrivacyPolicy);
+        LinearLayout linearLayoutPrivacyPolicy = findViewById(R.id.linearLayoutPrivacyPolicy);
         TextView tv_usage_privacy_title = findViewById(R.id.tv_usage_privacy_title);
         TextView tv_usage_privacy_decription = findViewById(R.id.tv_usage_privacy_decription);
         tv_usage_privacy_title.setTypeface(RobotoMedium);
@@ -672,7 +672,7 @@ public class UsageActivity extends Activity {
             }
         });
 
-        LinearLayout ll_open_contact_dialog = findViewById (R.id.linearLayoutContact);
+        LinearLayout ll_open_contact_dialog = findViewById(R.id.linearLayoutContact);
         TextView tv_usage_contact_title = findViewById(R.id.tv_usage_contact_title);
         TextView tv_usage_contact_description = findViewById(R.id.tv_usage_contact_description);
         TextView tv_usage_connections_title = findViewById(R.id.tv_usage_connections_title);
@@ -684,7 +684,7 @@ public class UsageActivity extends Activity {
         ll_open_contact_dialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try{
+                try {
                     Bundle params = new Bundle();
                     params.putString("device_id", App.device_id);
                     params.putString("click", "contact");
@@ -702,7 +702,7 @@ public class UsageActivity extends Activity {
             }
         });
 
-        LinearLayout ll_usage_share = findViewById (R.id.linearLayoutShare);
+        LinearLayout ll_usage_share = findViewById(R.id.linearLayoutShare);
         tv_usage_share_title.setTypeface(RobotoBold);
         tv_usage_share_description.setTypeface(RobotoRegular);
         ll_usage_share.setOnClickListener(new View.OnClickListener() {
@@ -714,7 +714,7 @@ public class UsageActivity extends Activity {
                 params.putString("click", "share");
                 mFirebaseAnalytics.logEvent("app_param_click", params);
 
-                try{
+                try {
                     Intent sendIntent = new Intent();
                     sendIntent.setAction(Intent.ACTION_SEND);
                     sendIntent.putExtra(Intent.EXTRA_TEXT, "Wow! Change to dark mode, check VPN data usage, +10 countries, and it's only 5MB! Download the App NOW! From Google Play http://bit.ly/gotogoogleplay | Get the APK from UpToDown http://bit.ly/gotouptodown Aptoid http://bit.ly/gotoaptoide");
@@ -850,8 +850,7 @@ public class UsageActivity extends Activity {
             viewUsageDark_9.setVisibility(View.VISIBLE);
             viewUsageDark_10.setVisibility(View.VISIBLE);
 
-        }
-        else {
+        } else {
             linearLayoutUsage.setBackgroundColor(getResources().getColor(R.color.colorLightBackground));
             tv_usage_title.setTextColor(getResources().getColor(R.color.colorLightText));
             tv_usage_data_title.setTextColor(getResources().getColor(R.color.colorLightText));
@@ -916,7 +915,7 @@ public class UsageActivity extends Activity {
             viewUsageLight_10.setVisibility(View.VISIBLE);
         }
 
-        if(DarkMode.equals("true")){
+        if (DarkMode.equals("true")) {
             switch_usage_dark_mode.setChecked(true);
         } else {
             switch_usage_dark_mode.setChecked(false);
@@ -928,8 +927,6 @@ public class UsageActivity extends Activity {
     protected void onDestroy() {
         super.onDestroy();
     }
-
-
 
 
 }

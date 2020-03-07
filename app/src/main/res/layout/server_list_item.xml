@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:background="@color/colorWhite"
-    android:id="@+id/ll_item"
     android:clickable="true"
     android:focusable="true"
+    android:orientation="horizontal"
     android:paddingTop="@dimen/lo_16dpGrid"
-    android:paddingBottom="@dimen/lo_16dpGrid"
-    android:orientation="horizontal">
+    android:paddingBottom="@dimen/lo_16dpGrid">
 
 
     <ImageView
         android:id="@+id/iv_flag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginStart="@dimen/lo_16dpGrid"
         android:layout_marginLeft="@dimen/lo_16dpGrid"
-        android:layout_gravity="center"
         android:contentDescription="name of the country" />
 
 
@@ -41,11 +41,11 @@
         android:id="@+id/iv_signal_strength"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:layout_marginEnd="@dimen/lo_16dpGrid"
-        android:layout_marginRight="@dimen/lo_16dpGrid"
+        android:layout_gravity="center"
         android:layout_marginStart="@dimen/lo_16dpGrid"
         android:layout_marginLeft="@dimen/lo_16dpGrid"
-        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/lo_16dpGrid"
+        android:layout_marginRight="@dimen/lo_16dpGrid"
         android:background="@drawable/ic_signal_medium" />
 
 

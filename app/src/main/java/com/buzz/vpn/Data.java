@@ -5,7 +5,6 @@ public class Data {
     static String FilePassword;
 
 
-
     static boolean isAppDetails = false, isConnectionDetails = false;
     static String PREF_USAGE = "daily_usage";
     public static String StringCountDown;

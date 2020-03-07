@@ -16,7 +16,7 @@ public class Crypto {
             cipher.init(Cipher.ENCRYPT_MODE, skeySpec, iv);
 
             byte[] encrypted = cipher.doFinal(value.getBytes());
-            System.out.println("encrypted string: "+ Base64.encodeToString(encrypted, android.util.Base64.DEFAULT));
+            System.out.println("encrypted string: " + Base64.encodeToString(encrypted, android.util.Base64.DEFAULT));
 
             return Base64.encodeToString(encrypted, Base64.DEFAULT);
         } catch (Exception e) {

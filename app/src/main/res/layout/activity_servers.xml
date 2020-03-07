@@ -71,7 +71,7 @@
                 android:id="@+id/iv_server_refresh"
                 android:layout_width="34dp"
                 android:layout_height="34dp"
-                android:background="@drawable/ic_servers_cloud"/>
+                android:background="@drawable/ic_servers_cloud" />
         </LinearLayout>
 
 
@@ -89,12 +89,12 @@
             android:id="@+id/ls_servers_list_light"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:footerDividersEnabled="true"
-            android:headerDividersEnabled="true"
             android:divider="@color/colorLightList"
             android:dividerHeight="1dp"
-            android:visibility="gone"
-            android:scrollbars="vertical">
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true"
+            android:scrollbars="vertical"
+            android:visibility="gone">
 
         </ListView>
 
@@ -102,12 +102,12 @@
             android:id="@+id/ls_servers_list_dark"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:footerDividersEnabled="true"
-            android:headerDividersEnabled="true"
-            android:visibility="gone"
             android:divider="@color/colorDarkList"
             android:dividerHeight="1dp"
-            android:scrollbars="vertical">
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true"
+            android:scrollbars="vertical"
+            android:visibility="gone">
 
         </ListView>
     </LinearLayout>

@@ -10,15 +10,14 @@
     tools:context=".MainActivity">
 
 
-
     <LinearLayout
         android:id="@+id/linearLayoutMainHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
         android:clickable="true"
         android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
         android:padding="@dimen/lo_16dpGrid"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,11 +34,11 @@
         android:id="@+id/linearLayoutMainServers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:padding="@dimen/lo_16dpGrid"
-        android:clickable="true"
-        android:focusable="true"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -77,11 +76,11 @@
                 android:id="@+id/tv_message_top_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:lineSpacingExtra="2dp"
                 android:text="message top"
                 android:textColor="@color/colorWhite"
                 android:textSize="18sp"
-                android:gravity="center"
                 app:layout_constraintEnd_toEndOf="@id/tv_message_bottom_text"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintWidth_max="wrap"
@@ -169,19 +168,17 @@
         android:id="@+id/btn_connection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lo_8dpGrid"
         android:background="@drawable/button_connect"
         android:elevation="@dimen/lo_8dpGrid"
         android:paddingStart="@dimen/lo_24dpGrid"
         android:paddingEnd="@dimen/lo_24dpGrid"
-        android:layout_marginTop="@dimen/lo_8dpGrid"
         android:text="Connect"
         android:textColor="@color/colorWhite"
         android:textSize="@dimen/ts_H6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_progress_bar" />
-
-
 
 
     <LinearLayout

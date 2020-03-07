@@ -55,8 +55,7 @@
                     android:layout_marginBottom="@dimen/lo_16dpGrid"
                     android:gravity="center"
                     android:text="FAQ"
-                    android:textSize="18sp"
-                    />
+                    android:textSize="18sp" />
 
 
                 <View
@@ -115,18 +114,18 @@
                     android:id="@+id/tv_usage_faq_q1_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/ts_Body1"
+                    android:text="Why do I need VPN?"
                     android:textColor="@color/textSup"
-                    android:textStyle="bold"
-                    android:text="Why do I need VPN?" />
+                    android:textSize="@dimen/ts_Body1"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/tv_usage_faq_q1_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/ts_Body2"
+                    android:text="VPN is Virtual Private Network. By using VPN, you can use public Wi-Fi hotspots securely, and protect your privacy and bypass censorship"
                     android:textColor="@color/textSub"
-                    android:text="VPN is Virtual Private Network. By using VPN, you can use public Wi-Fi hotspots securely, and protect your privacy and bypass censorship" />
+                    android:textSize="@dimen/ts_Body2" />
             </LinearLayout>
 
             <!-- FAQ 2 -->
@@ -143,10 +142,10 @@
                     android:id="@+id/tv_usage_faq_q2_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/ts_Body1"
+                    android:text="How to use Buzz VPN?"
                     android:textColor="@color/textSup"
-                    android:textStyle="bold"
-                    android:text="How to use Buzz VPN?" />
+                    android:textSize="@dimen/ts_Body1"
+                    android:textStyle="bold" />
 
 
                 <LinearLayout
@@ -178,9 +177,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:textSize="@dimen/ts_Body2"
+                    android:text="Just Tap on the CONNECT Button"
                     android:textColor="@color/textSub"
-                    android:text="Just Tap on the CONNECT Button" />
+                    android:textSize="@dimen/ts_Body2" />
             </LinearLayout>
 
             <!-- FAQ 3 -->
@@ -197,10 +196,10 @@
                     android:id="@+id/tv_usage_faq_q3_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/ts_Body1"
+                    android:text="Why Buzz VPN failed to connect?"
                     android:textColor="@color/textSup"
-                    android:textStyle="bold"
-                    android:text="Why Buzz VPN failed to connect?" />
+                    android:textSize="@dimen/ts_Body1"
+                    android:textStyle="bold" />
 
 
                 <LinearLayout
@@ -227,9 +226,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:textSize="@dimen/ts_Body2"
+                    android:text="Just Tap on the FLAG Button Top-Right Corner and Change another Server"
                     android:textColor="@color/textSub"
-                    android:text="Just Tap on the FLAG Button Top-Right Corner and Change another Server" />
+                    android:textSize="@dimen/ts_Body2" />
             </LinearLayout>
 
             <!-- FAQ 4 -->
@@ -246,20 +245,19 @@
                     android:id="@+id/tv_usage_faq_q4_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/ts_Body1"
+                    android:text="Still not Connecting?"
                     android:textColor="@color/textSup"
-                    android:textStyle="bold"
-                    android:text="Still not Connecting?" />
-
+                    android:textSize="@dimen/ts_Body1"
+                    android:textStyle="bold" />
 
 
                 <TextView
                     android:id="@+id/tv_usage_faq_q4_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/ts_Body2"
+                    android:text="Turn On-Off Wi-Fi or Data Connection and Close the App and Open Again"
                     android:textColor="@color/textSub"
-                    android:text="Turn On-Off Wi-Fi or Data Connection and Close the App and Open Again" />
+                    android:textSize="@dimen/ts_Body2" />
             </LinearLayout>
 
             <!-- FAQ 5 -->
@@ -276,10 +274,10 @@
                     android:id="@+id/tv_usage_faq_q5_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/ts_Body1"
+                    android:text="How to run Buzz VPN in background?"
                     android:textColor="@color/textSup"
-                    android:textStyle="bold"
-                    android:text="How to run Buzz VPN in background?" />
+                    android:textSize="@dimen/ts_Body1"
+                    android:textStyle="bold" />
 
 
                 <LinearLayout
@@ -302,27 +300,27 @@
                     android:id="@+id/tv_usage_faq_q5_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/ts_Body2"
+                    android:text="Advantages"
                     android:textColor="@color/textSup"
-                    android:textStyle="bold"
-                    android:text="Advantages" />
+                    android:textSize="@dimen/ts_Body2"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/tv_usage_faq_q5_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/ts_Body2"
+                    android:text="Your App will not close after Screen-Off"
                     android:textColor="@color/textSub"
-                    android:text="Your App will not close after Screen-Off" />
+                    android:textSize="@dimen/ts_Body2" />
 
                 <TextView
                     android:id="@+id/tv_usage_faq_q5_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/ts_Body2"
+                    android:text="Open Settings > Advanced Settings > Battery > Protected Apps and Enable Buzz VPN"
                     android:textColor="@color/textSub"
-                    android:textStyle="italic"
-                    android:text="Open Settings > Advanced Settings > Battery > Protected Apps and Enable Buzz VPN" />
+                    android:textSize="@dimen/ts_Body2"
+                    android:textStyle="italic" />
 
 
             </LinearLayout>

@@ -1,31 +1,27 @@
 package com.buzz.vpn;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
-
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
-
 import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
-
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.firebase.analytics.FirebaseAnalytics;
@@ -48,7 +44,8 @@ public class WelcomeActivity extends AppCompatActivity {
     private FirebaseAnalytics mFirebaseAnalytics;
 
     @Override
-    public void onBackPressed() { }
+    public void onBackPressed() {
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,9 +58,9 @@ public class WelcomeActivity extends AppCompatActivity {
         StringGetConnectionURL = "https://raw.githubusercontent.com/gayanvoice/android-vpn-client-ics-openvpn/images/filedetails.json";
         //StringGetConnectionURL = "https://gayankuruppu.github.io/buzz/connection.html";
 
-        Typeface RobotoMedium = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Medium.ttf");
-        Typeface RobotoRegular = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Regular.ttf");
-        Typeface RobotoBold = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Bold.ttf");
+        Typeface RobotoMedium = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
+        Typeface RobotoRegular = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
+        Typeface RobotoBold = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
 
         tv_welcome_status = findViewById(R.id.tv_welcome_status);
         tv_welcome_app = findViewById(R.id.tv_welcome_app);
@@ -138,8 +135,8 @@ public class WelcomeActivity extends AppCompatActivity {
 
         });
 
-        if(!Data.isConnectionDetails) {
-            if(!Data.isAppDetails) {
+        if (!Data.isConnectionDetails) {
+            if (!Data.isAppDetails) {
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
@@ -151,7 +148,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
     }
 
-    void getAppDetails(){
+    void getAppDetails() {
         tv_welcome_status.setText("GETTING APP DETAILS");
         RequestQueue queue = Volley.newRequestQueue(WelcomeActivity.this);
         queue.getCache().clear();
@@ -179,7 +176,7 @@ public class WelcomeActivity extends AppCompatActivity {
         queue.addRequestFinishedListener(new RequestQueue.RequestFinishedListener<String>() {
             @Override
             public void onRequestFinished(Request<String> request) {
-                if(Data.isAppDetails){
+                if (Data.isAppDetails) {
                     getFileDetails();
                 } else {
                     tv_welcome_status.setText("CONNECTION INTERRUPTED");
@@ -188,7 +185,7 @@ public class WelcomeActivity extends AppCompatActivity {
         });
     }
 
-    void getFileDetails (){
+    void getFileDetails() {
         tv_welcome_status.setText("GETTING CONNECTION DETAILS");
         RequestQueue queue = Volley.newRequestQueue(WelcomeActivity.this);
         queue.getCache().clear();
@@ -219,7 +216,7 @@ public class WelcomeActivity extends AppCompatActivity {
                 final int max = 4;
                 Random = new Random().nextInt((max - min) + 1) + min;
 
-                String Ads = "NULL", cuVersion = "NULL", upVersion = "NULL",  upTitle = "NULL", upDescription = "NULL", upSize = "NULL";
+                String Ads = "NULL", cuVersion = "NULL", upVersion = "NULL", upTitle = "NULL", upDescription = "NULL", upSize = "NULL";
                 String ID = "NULL", FileID = "NULL", File = "NULL", City = "NULL", Country = "NULL", Image = "NULL",
                         IP = "NULL", Active = "NULL", Signal = "NULL";
                 String BlockedApps = "NULL";
@@ -253,10 +250,10 @@ public class WelcomeActivity extends AppCompatActivity {
                     JSONObject json_response = new JSONObject(AppDetails);
                     JSONArray jsonArray = json_response.getJSONArray("free");
                     JSONObject json_object = jsonArray.getJSONObject(Random);
-                    ID =  json_object.getString("id");
-                    FileID =  json_object.getString("file");
+                    ID = json_object.getString("id");
+                    FileID = json_object.getString("file");
                     City = json_object.getString("city");
-                    Country =  json_object.getString("country");
+                    Country = json_object.getString("country");
                     Image = json_object.getString("image");
                     IP = json_object.getString("ip");
                     Active = json_object.getString("active");
@@ -345,8 +342,8 @@ public class WelcomeActivity extends AppCompatActivity {
                 tv_welcome_size.setText(upSize);
                 tv_welcome_version.setText(upVersion);
 
-                if(Data.isConnectionDetails){
-                    if(cuVersion.equals(upVersion)){
+                if (Data.isConnectionDetails) {
+                    if (cuVersion.equals(upVersion)) {
                         finish();
                         overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
                     } else {
@@ -368,7 +365,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
     public void startAnimation(Context ctx, int view, int animation, boolean show) {
         final View Element = findViewById(view);
-        if(show) {
+        if (show) {
             Element.setVisibility(View.VISIBLE);
         } else {
             Element.setVisibility(View.INVISIBLE);
