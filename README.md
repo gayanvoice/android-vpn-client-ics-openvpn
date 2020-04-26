@@ -11,6 +11,8 @@ The client app is based on OpenVPN protocol, and you can create your own android
 
 The app can calculate the daily usage of data, connected time, check connection speed from notifications, change the interface into night-mode, multiple servers, remote-config and visual-effects.
 
+## Does not support Android 10
+
 # The servers are now offline! So the servers are waiting for a connection. Get an OpenVPN file and paste the file in [filedetails.json](https://raw.githubusercontent.com/gayanvoice/android-vpn-client-ics-openvpn/images/filedetails.json). Create your own JSON file and host in a server.
 
 ## Links
