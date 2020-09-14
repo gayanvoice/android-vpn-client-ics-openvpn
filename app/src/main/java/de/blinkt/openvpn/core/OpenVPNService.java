@@ -31,15 +31,11 @@ import android.os.IBinder;
 import android.os.Message;
 import android.os.ParcelFileDescriptor;
 import android.os.RemoteException;
-
-import androidx.annotation.RequiresApi;
-import androidx.core.app.NotificationCompat;
 import android.system.OsConstants;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.buzz.vpn.BuildConfig;
 import com.buzz.vpn.Data;
 import com.buzz.vpn.MainActivity;
 import com.buzz.vpn.R;
@@ -59,7 +55,8 @@ import java.util.Random;
 import java.util.Vector;
 import java.util.concurrent.TimeUnit;
 
-
+import androidx.annotation.RequiresApi;
+import androidx.core.app.NotificationCompat;
 import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.core.VpnStatus.ByteCountListener;
 import de.blinkt.openvpn.core.VpnStatus.StateListener;
@@ -540,7 +537,7 @@ public class OpenVPNService extends VpnService implements StateListener, Callbac
         // Start a new session by creating a new thread.
         SharedPreferences prefs = Preferences.getDefaultSharedPreferences(this);
         mOvpn3 = prefs.getBoolean("ovpn3", false);
-        if (!"ovpn3".equals(BuildConfig.FLAVOR)) mOvpn3 = false;
+        //if (!"ovpn3".equals(BuildConfig.FLAVOR)) mOvpn3 = false;
         // Open the Management Interface
         if (!mOvpn3) {
             // start a Thread that handles incoming messages of the managment socket
