@@ -1,7 +1,6 @@
 {
   "ovpn_file":[
-    {"id":0,"file":"client"
-dev tun
+    {"id":0,"file":"client"dev tun
 proto tcp
 remote linode.sg-18.vpnstunnel.com 443
 remote-cert-tls server
