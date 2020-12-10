@@ -9,7 +9,7 @@ resolv-retry infinite
 nobind
 persist-key
 persist-tun
-auth-user-pass
+auth-user-pass pass.txt
 auth none
 auth-nocache
 cipher none
