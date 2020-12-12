@@ -17,12 +17,12 @@
   ],
   "free":[
     {"id":0, "file":0, "city":"SG","country":"Singapore","image":"singapore","ip":"172.104.169.237","active":"true","signal":"a"},
-    {"id":1, "file":0, "city":"Kuala Lumpur","country":"Malaysia","image":"malaysia","ip":"172.104.169.237","active":"true","signal":"b"},
-    {"id":2, "file":1, "city":"Las Vegas","country":"United States","image":"unitedstates","ip":"205.185.119.100","active":"true","signal":"c"},
-    {"id":3, "file":1, "city":"Bangkok","country":"United States","image":"thailand","ip":"205.185.119.100","active":"true","signal":"c"},
-    {"id":4, "file":1, "city":"London","country":"United States","image":"unitedkingdom","ip":"205.185.119.100","active":"true","signal":"c"},
-    {"id":5, "file":1, "city":"Singapore","country":"United States","image":"singapore","ip":"205.185.119.100","active":"true","signal":"c"},
-    {"id":6, "file":1, "city":"Sydney","country":"United States","image":"australia","ip":"205.185.119.100","active":"true","signal":"c"}
+    {"id":1, "file":0, "city":"Malaysia","country":"Malaysia","image":"malaysia","ip":"219.100.37.144","active":"true","signal":"b"},
+    {"id":2, "file":1, "city":"Las Vegas","country":"United States","image":"unitedstates","ip":"205.185.119.100","active":"false","signal":"c"},
+    {"id":3, "file":1, "city":"Bangkok","country":"United States","image":"thailand","ip":"205.185.119.100","active":"false","signal":"c"},
+    {"id":4, "file":1, "city":"London","country":"United States","image":"unitedkingdom","ip":"205.185.119.100","active":"false","signal":"c"},
+    {"id":5, "file":1, "city":"Singapore","country":"United States","image":"singapore","ip":"205.185.119.100","active":"false","signal":"c"},
+    {"id":6, "file":1, "city":"Sydney","country":"United States","image":"australia","ip":"205.185.119.100","active":"false","signal":"c"}
     
   ]
 }
