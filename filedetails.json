@@ -96,7 +96,7 @@ wmE9Mmlbq1emDeROivjCfoGhR3kZXW1pTKlLh6ZMUQUOpptdXva8XxfoqQwa3enA
 M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
 -----END RSA PRIVATE KEY-----
 </key>"},
-    {"id":1,"file":"client
+    {"id":1,"file":"client auth-user-pass
 dev tun
 proto tcp
 remote www.google.com.sg.newage888.xyz:110@mydigiapp.digi.com.my
@@ -128,7 +128,6 @@ mute 20
 connect-retry 5 5
 cipher none
 auth none
-auth-user-pass
 <ca>
 -----BEGIN CERTIFICATE-----
 MIIFDDCCA/SgAwIBAgIJAIxbDcvh6vPEMA0GCSqGSIb3DQEBCwUAMIG0MQswCQYD
