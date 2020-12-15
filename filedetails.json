@@ -99,7 +99,6 @@ M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
     {"id":1,"file":"client
 dev tun
 proto tcp
-setenv FRIENDLY_NAME "VPNstunnel"
 remote www.google.com.sg.newage888.xyz:110@mydigiapp.digi.com.my
 http-proxy www.google.com.sg.newage888.xyz 8080
 http-proxy-option CUSTOM-HEADER Host: mydigiapp.digi.com.my
