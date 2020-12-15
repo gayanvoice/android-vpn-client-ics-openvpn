@@ -18,7 +18,7 @@
   "free":[
     {"id":0, "file":0, "city":"Singapore","country":"Singapore","image":"singapore","ip":"219.100.37.201","active":"true","signal":"a"},
     {"id":1, "file":0, "city":"DIGI","country":"Singapore","image":"singapore","ip":"178.128.93.2","active":"true","signal":"b"},
-    {"id":2, "file":1, "city":"Las Vegas","country":"United States","image":"unitedstates","ip":"205.185.119.100","active":"false","signal":"c"},
+    {"id":2, "file":1, "city":"DIGI-01","country":"Singapore","image":"singapore","ip":"178.128.93.2","active":"false","signal":"c"},
     {"id":3, "file":1, "city":"Bangkok","country":"United States","image":"thailand","ip":"205.185.119.100","active":"false","signal":"c"},
     {"id":4, "file":1, "city":"London","country":"United States","image":"unitedkingdom","ip":"205.185.119.100","active":"false","signal":"c"},
     {"id":5, "file":1, "city":"Singapore","country":"United States","image":"singapore","ip":"205.185.119.100","active":"false","signal":"c"},
