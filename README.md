@@ -1,7 +1,12 @@
 # android-vpn-client-ics-openvpn [<img alt="Image of insights" src="https://github.com/gayanvoice/insights/blob/master/graph/207237845/small/week.png" height="20">](https://github.com/gayanvoice/insights/blob/master/readme/207237845/week.md)
 
+| Set up 📈  [GitHub Insights](https://github.com/gayanvoice/github-insights) counter to track how many people have viewed your GitHub repositories |
+| ---- |
+
 [![Build Status](https://travis-ci.org/gayanvoice/android-vpn-client-ics-openvpn.svg?branch=master)](https://travis-ci.org/gayanvoice/android-vpn-client-ics-openvpn) [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gayanvoice/android-vpn-client-ics-openvpn) 
 [![Image of insights](https://github.com/gayanvoice/insights/blob/master/svg/207237845/badge.svg)](https://github.com/gayanvoice/insights/blob/master/readme/207237845/week.md)
+
+
 
 <img width="300" alt="Android VPN Client using ics-openvpn" src="https://gayanvoice.github.io/android-vpn-client-ics-openvpn/static/media/0-android-vpn-client-app.b8e63ecd.gif">
 
