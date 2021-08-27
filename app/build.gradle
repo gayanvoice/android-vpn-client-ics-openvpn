@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.firebase.firebase-perf'
 apply plugin: 'io.fabric'
 android {
-    compileSdkVersion 28
+    compileSdkVersion 30
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -11,7 +11,7 @@ android {
     defaultConfig {
         applicationId "com.buzz.vpn"
         minSdkVersion 21
-        targetSdkVersion 28
+        targetSdkVersion 30
         vectorDrawables.useSupportLibrary = true
         // api.major.patch
         // api when you obsolete the existing api
