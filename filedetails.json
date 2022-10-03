@@ -1,7 +1,26 @@
 {
   "ovpn_file":[
     {"id":0,"file":"client dev tun proto udp ... d4ec4105a39c814bd980c9c0e0b8efb4 -----END OpenVPN Static key V1----- </tls-auth>"},
-    {"id":1,"file":"client dev tun proto udp persist-key persist-tun auth-user-pass
+    {"id":1,"file":
+"client
+dev tun
+remote-cert-tls server
+cipher aes-256-cbc
+pull
+nobind
+reneg-sec 0
+resolv-retry infinite
+verb 3
+persist-key
+persist-tun
+remote-random
+remote pool-1.prd.de.erfurt.ovpn.com 1194
+remote pool-1.prd.de.erfurt.ovpn.com 1195
+proto udp
+mute-replay-warnings
+replay-window 256
+auth-user-pass
+key-direction 1   
   <ca>
   -----BEGIN CERTIFICATE-----
   MIIEfTCCA2WgAwIBAgIJAK2aIWqpLj1/MA0GCSqGSIb3DQEBBQUAMIGFMQswCQYD
