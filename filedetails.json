@@ -4,8 +4,8 @@
     {"id":1,"file":"client
 dev tun3
 proto tcp
-remote 51.68.152.226 80
-remote pl226.vpnbook.com 80
+remote 37.187.158.97 80
+remote fr1.vpnbook.com 80
 resolv-retry infinite
 nobind
 persist-key
