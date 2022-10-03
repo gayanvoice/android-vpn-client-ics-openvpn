@@ -1,7 +1,20 @@
 {
   "ovpn_file":[
     {"id":0,"file":"client dev tun proto udp ... d4ec4105a39c814bd980c9c0e0b8efb4 -----END OpenVPN Static key V1----- </tls-auth>"},
-    {"id":1,"file":"client dev tun proto udp persist-key persist-tun auth SHA1 auth-user-pass
+    {"id":1,"file":"
+client
+dev tun
+proto udp
+persist-key
+persist-tun
+auth SHA1
+auth-user-pass
+remote 82.129.22.170 1194
+cipher AES-128-CBC
+resolv-retry infinite
+nobind
+verb 3     
+     
 <ca>
 -----BEGIN CERTIFICATE-----
 MIIDIjCCAgqgAwIBAgIBADANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDDAVDcm93
@@ -22,6 +35,26 @@ wY2UHIGEF3dBEcJsl5ljWMQlZuPFk+h9xWO5JS5ryV7UX5FQbn/LO1/AiG5/zj24
 n3nQ0IuHLNh1WPui+4wAxUxN2xyUdYXrqa4MgOjFk+Hs36PKe4fXpdHOil7S8jLY
 dHN5gjx3BClEVtkrcT4ELbip3w4gCJNbd9MUJ3byY/ekCaPH2+8=
 -----END CERTIFICATE-----
-</ca>"
+</ca>
+<tls-auth>
+-----BEGIN OpenVPN Static key V1-----
+81782767e4d59c4464cc5d1896f1cf60
+15017d53ac62e2e3b94b889e00b2c69d
+dc01944fe1c6d895b4d80540502eb719
+10b8d785c9efa9e3182343532adffe1c
+fbb7bb6eae39c502da2748edf0fb89b8
+a20b0a1085cc1f06135037881bc0c4ad
+8f2c0f4f72d2ab466fb54af3d8264c5f
+ddeb0f21aa0ca41863678f5fc4c44de4
+ca0926b36dfddc42c6f2fabd1694bdc8
+215b2d223b9c21dc6734c2c778093187
+afb8c33403b228b9af68b540c284f6d1
+83bcc88bd41d47bd717996e499ce1cbb
+fa768a9723c19c58314c4d19cfed82e5
+43ee92e73d38ad26d4fbec231c0f9f3b
+30773a5c87792e9bc7c34e8d7611002e
+bedd044e48a0f1f96527bfdcc940aa09
+-----END OpenVPN Static key V1-----
+</tls-auth>"
     }]
 }
