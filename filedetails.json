@@ -1,39 +1,39 @@
 {
-"ovpn_file":[
-  {   "id":0,
-  "file":"
-   dev tun
-   proto udp
-   remote 82.129.22.170 1194
-   cipher AES-128-CBC
-   auth SHA1
-  resolv-retry infinite
-  nobind
-  persist-key
-  persist-tun
-  client
-  verb 3
-  auth-user-pass
- <ca>
------BEGIN CERTIFICATE-----
-MIIDIjCCAgqgAwIBAgIBADANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDDAVDcm93
-ZDAeFw0yMjEwMDExNDM3NDBaFw0zMjA5MjgxNDM3NDBaMBAxDjAMBgNVBAMMBUNy
-b3dkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwhyiTdR8pxvuKf5A
-cHO0okYzMZ7PgC5bY4VVJKa6VYpsyYasKsZL/C34mPAozZ4Yrx9IJAARjEyZlClc
-X/30b62MohSF0sLIGCZOBt+SISMI/Bp0qhqqt6hToXVCiOfsgK93odTLrdmUPWVK
-Tcx/F0m5TTU1AZy4OveKX3SNwyuoSoMgZkbXOdxPMdzLNoeXhnNa5l7cgsFkTAFd
-1xuCV14XYHuKUiNiBLhGaoe6nsZ0RJPJ3m0HuHyotlfgTGtZXfwO4Hj5Ks0P7Bal
-RsKtpEB5VGjCj7Z0yMPwgt7mtALwN/hQts5alHHSbiQoY4fgfvGnwau+zBuqJuZz
-PNwfWQIDAQABo4GGMIGDMA8GA1UdEwEB/wQFMAMBAf8wCwYDVR0PBAQDAgH2MGMG
-A1UdJQRcMFoGCCsGAQUFBwMBBggrBgEFBQcDAgYIKwYBBQUHAwMGCCsGAQUFBwME
-BggrBgEFBQcDBQYIKwYBBQUHAwYGCCsGAQUFBwMHBggrBgEFBQcDCAYIKwYBBQUH
-AwkwDQYJKoZIhvcNAQELBQADggEBACbW3f9WnGhuYMp2iGDLZjBsvArbYu2oe4lv
-eFvgRNZ+U//psBKn9iEWzNjIXOrJQnyTSXejTdctXg84QUb+yGFLwgG+SPIQ7gVq
-UZJVBZRk1oDw2vdq9VYXnqnobLify3a5qsCb8hDd3XxlVFZbeprbCaI8ZYOXjwG+
-wY2UHIGEF3dBEcJsl5ljWMQlZuPFk+h9xWO5JS5ryV7UX5FQbn/LO1/AiG5/zj24
-n3nQ0IuHLNh1WPui+4wAxUxN2xyUdYXrqa4MgOjFk+Hs36PKe4fXpdHOil7S8jLY
-dHN5gjx3BClEVtkrcT4ELbip3w4gCJNbd9MUJ3byY/ekCaPH2+8=
------END CERTIFICATE-----
-</ca>
-"}],
-}
+	"ovpn_file": [{
+				"id": 0,
+				"file": "dev tun
+				proto udp
+				remote 82.129 .22 .170 1194
+				cipher AES - 128 - CBC
+				auth SHA1
+				resolv - retry infinite
+				nobind
+				persist - key
+				persist - tun
+				client
+				verb 3
+				auth - user - pass <
+				ca >
+				-- -- - BEGIN CERTIFICATE-- -- -
+				MIIDIjCCAgqgAwIBAgIBADANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDDAVDcm93
+				ZDAeFw0yMjEwMDExNDM3NDBaFw0zMjA5MjgxNDM3NDBaMBAxDjAMBgNVBAMMBUNy
+				b3dkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwhyiTdR8pxvuKf5A
+				cHO0okYzMZ7PgC5bY4VVJKa6VYpsyYasKsZL / C34mPAozZ4Yrx9IJAARjEyZlClc
+				X / 30 b62MohSF0sLIGCZOBt + SISMI / Bp0qhqqt6hToXVCiOfsgK93odTLrdmUPWVK
+				Tcx / F0m5TTU1AZy4OveKX3SNwyuoSoMgZkbXOdxPMdzLNoeXhnNa5l7cgsFkTAFd
+				1 xuCV14XYHuKUiNiBLhGaoe6nsZ0RJPJ3m0HuHyotlfgTGtZXfwO4Hj5Ks0P7Bal
+				RsKtpEB5VGjCj7Z0yMPwgt7mtALwN / hQts5alHHSbiQoY4fgfvGnwau + zBuqJuZz
+				PNwfWQIDAQABo4GGMIGDMA8GA1UdEwEB / wQFMAMBAf8wCwYDVR0PBAQDAgH2MGMG
+				A1UdJQRcMFoGCCsGAQUFBwMBBggrBgEFBQcDAgYIKwYBBQUHAwMGCCsGAQUFBwME
+				BggrBgEFBQcDBQYIKwYBBQUHAwYGCCsGAQUFBwMHBggrBgEFBQcDCAYIKwYBBQUH
+				AwkwDQYJKoZIhvcNAQELBQADggEBACbW3f9WnGhuYMp2iGDLZjBsvArbYu2oe4lv
+				eFvgRNZ + U //psBKn9iEWzNjIXOrJQnyTSXejTdctXg84QUb+yGFLwgG+SPIQ7gVq
+				UZJVBZRk1oDw2vdq9VYXnqnobLify3a5qsCb8hDd3XxlVFZbeprbCaI8ZYOXjwG +
+				wY2UHIGEF3dBEcJsl5ljWMQlZuPFk + h9xWO5JS5ryV7UX5FQbn / LO1 / AiG5 / zj24
+				n3nQ0IuHLNh1WPui + 4 wAxUxN2xyUdYXrqa4MgOjFk + Hs36PKe4fXpdHOil7S8jLY
+				dHN5gjx3BClEVtkrcT4ELbip3w4gCJNbd9MUJ3byY / ekCaPH2 + 8 =
+				-- -- - END CERTIFICATE-- -- -
+				<
+				/ca>
+				"}]
+			}
