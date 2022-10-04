@@ -1,10 +1,10 @@
 {
   "ads":"true",
   "update":[{
-    "version":"2.8.2000",
-    "title":"Do you like this VPN app? Check the source code!",
-    "description":"The App is available at github.com/gayankuruppu/android-vpn-client-ics-openvpn and follow the developer on GitHub github.com/gayanvoice",
-    "size":"https://git.io/JeY69"
+    "version":"1.0",
+    "title":"Segured-VPN",
+    "description":"Segured-VPN",
+    "size":""
   }],
   "blocked":[
     {"id":0, "app":"com.android.game"},
@@ -16,11 +16,6 @@
     {"id":6, "app":"com.get.client"}
   ],
   "free":[
-    {"id":1, "file":0, "city":"Las Vegas","country":"United States","image":"unitedstates","ip":"51.68.180.4","active":"true","signal":"c"},
-    {"id":2, "file":1, "city":"Bangkok","country":"United States","image":"thailand","ip":"205.185.119.100","active":"true","signal":"c"},
-    {"id":3, "file":1, "city":"London","country":"United States","image":"unitedkingdom","ip":"205.185.119.100","active":"true","signal":"c"},
-    {"id":4, "file":1, "city":"Singapore","country":"United States","image":"singapore","ip":"205.185.119.100","active":"true","signal":"c"},
-    {"id":5, "file":1, "city":"Sydney","country":"United States","image":"australia","ip":"205.185.119.100","active":"true","signal":"c"}
-    
+    {"id":0, "file":0, "city":"Republic of Korea","country":"Republic of Korea","image":"southkorea","ip":"82.129.22.170","active":"false","signal":"a"},
   ]
 }
