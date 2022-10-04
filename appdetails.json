@@ -16,6 +16,6 @@
     {"id":6, "app":"com.get.client"}
   ],
   "free":[
-    {"id":0, "file":0, "city":"Republic of Korea","country":"Republic of Korea","image":"southkorea","ip":"82.129.22.170","active":"false","signal":"a"},
+    {"id":0, "file":0, "city":"Republic of Korea","country":"Republic of Korea","image":"japan","ip":"82.129.22.170","active":"false","signal":"a"},
   ]
 }
